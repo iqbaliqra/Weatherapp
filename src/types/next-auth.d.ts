@@ -7,7 +7,8 @@ declare module "next-auth" {
       email: string;
       name: string;
       isExtAuth:boolean;
-      jwt: string;
+      stripeCustomerId:string;
+      subscription_status:string;
     };
   }
 }

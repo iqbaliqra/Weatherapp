@@ -42,6 +42,7 @@ export const authOptions: NextAuthOptions = {
 
   session: {
     strategy: "jwt",
+    maxAge:24*60*60
   },
 
   callbacks: {
@@ -80,11 +81,24 @@ export const authOptions: NextAuthOptions = {
       return token;
     },
 
-    async session({ session, token }) {
-      session.user.name = token.name as string;
-      session.user.email = token.email as string;
-      return session;
+   async session({ session, token }) {
+  session.user.name = token.name as string;
+  session.user.email = token.email as string;
+  session.user.isExtAuth = token.isExtAuth as boolean;
+
+  const dbUser = await prisma.user.findUnique({
+    where: { email: session.user.email },
+    select: {
+      stripeCustomerId: true,
+      subscription_status: true,
     },
+  });
+
+  session.user.stripeCustomerId = dbUser?.stripeCustomerId as string;
+  session.user.subscription_status = dbUser?.subscription_status as string;
+  return session;
+}
+
   },
 
   pages: {

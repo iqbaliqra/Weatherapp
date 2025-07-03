@@ -12,8 +12,9 @@ model User {
   email               String     @unique
   name                String?
   password            String?    // For credentials sign-in
-  subscription_status String     @default("FREE")
+  subscription_status String     @default("INACTIVE")
   isExtAuth           Boolean    @default(false)
+  stripeCustomerId    String? 
   locations           Location[]
   alerts              WeatherAlert[]
 }
