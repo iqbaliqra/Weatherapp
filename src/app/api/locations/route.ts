@@ -29,10 +29,11 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const { city, country } = await req.json();
+  const body = await req.json();
+  const { city, country, is_primary = false } = body;
 
   if (!city || !country) {
-    return NextResponse.json({ error: "Missing fields" }, { status: 400 });
+    return NextResponse.json({ error: "Missing city or country" }, { status: 400 });
   }
 
   const user = await prisma.user.findUnique({
@@ -48,8 +49,9 @@ export async function POST(req: Request) {
       city,
       country,
       userId: user.id,
+      is_primary,
     },
   });
 
-  return NextResponse.json(location);
+  return NextResponse.json(location, { status: 201 });
 }

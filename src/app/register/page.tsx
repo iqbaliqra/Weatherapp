@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-
+import { signIn } from "next-auth/react";
 export default function RegisterPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -103,7 +103,9 @@ export default function RegisterPage() {
       setLoading(false);
     }
   };
-
+const handleGoogleSignUp = () => {
+    signIn("google", { callbackUrl: "/dashboard" });
+  };
   return (
     <main className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 to-blue-100 overflow-hidden">
       {/* Dynamic weather background */}
@@ -125,7 +127,18 @@ export default function RegisterPage() {
           <h1 className="text-3xl font-bold text-blue-800">Join WeatherTrack</h1>
           <p className="text-blue-600">Your personal weather companion</p>
         </div>
-
+       <button
+          type="button"
+          onClick={handleGoogleSignUp}
+          className="w-full flex items-center justify-center gap-3 border border-blue-200 bg-white rounded-lg py-2.5 sm:py-3 px-4 hover:bg-blue-50 transition-all duration-300 text-sm sm:text-base"
+        >
+          <img 
+            src="https://www.svgrepo.com/show/475656/google-color.svg" 
+            alt="Google" 
+            className="w-4 h-4 sm:w-5 sm:h-5" 
+          />
+          <span className="text-blue-700 font-medium">Continue with Google</span>
+        </button>
         {/* Error message with smooth appearance */}
         {error && (
           <div className="p-3 bg-red-50 border border-red-200 text-red-700 rounded-lg text-sm transition-all duration-300 animate-shake">

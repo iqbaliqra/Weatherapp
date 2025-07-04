@@ -1,6 +1,6 @@
-export type ForecastItem = {
+export interface ForecastItem {
   date: string;
-  icon: string;
   temp: number;
+  icon: string;
   condition: string;
-};
+}

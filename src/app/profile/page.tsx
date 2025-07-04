@@ -11,7 +11,7 @@ export default function ProfilePage() {
 
   useEffect(() => {
     if (status === 'unauthenticated') {
-      router.push('/signin');
+      router.push('/register');
     }
   }, [status, router]);
 
@@ -23,25 +23,22 @@ export default function ProfilePage() {
     );
   }
 
-const handleManageSubscription = async () => {
-  // 1️⃣ Make a POST request to your Next.js API route
-  const res = await fetch("/api/create-portal-session", { method: "POST" });
+  // Determine subscription status and plan
+  const subscriptionStatus = session?.user?.subscription_status || "INACTIVE";
+  const subscriptionPlan = subscriptionStatus === "ACTIVE" ? "Premium" : "Free";
+  
 
-  // 2️⃣ If successful...
-  if (res.ok) {
-    const data = await res.json();
-
-    // 3️⃣ Redirect to Stripe Customer Portal URL
-    if (data.url) {
-      window.location.href = data.url;
+  const handleManageSubscription = async () => {
+    const res = await fetch("/api/create-portal-session", { method: "POST" });
+    if (res.ok) {
+      const data = await res.json();
+      if (data.url) {
+        window.location.href = data.url;
+      }
+    } else {
+      alert("Failed to load subscription management portal.");
     }
-  } else {
-    // 4️⃣ Show error if something failed
-    alert("Failed to load subscription management portal.");
-  }
-};
-
-
+  };
 
   return (
     <div className="flex min-h-screen bg-gray-50">
@@ -66,32 +63,68 @@ const handleManageSubscription = async () => {
                       {session?.user?.name || 'Unknown User'}
                     </h2>
                     <p className="text-gray-600">{session?.user?.email}</p>
+                    <p className="text-sm text-gray-500 mt-1">
+                      Subscription: {subscriptionStatus}
+                    </p>
                   </div>
                 </div>
-                <button
-                  onClick={handleManageSubscription}
-                  className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md transition duration-150 ease-in-out"
-                >
-                  Manage Subscription
-                </button>
+
+                {/* SHOW BUTTON ONLY IF SUBSCRIPTION IS ACTIVE */}
+                {subscriptionStatus==="ACTIVE" && (
+                  <button
+                    onClick={handleManageSubscription}
+                    className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md transition duration-150 ease-in-out"
+                  >
+                    Manage Subscription
+                  </button>
+                )}
               </div>
             </div>
 
             {/* User Details */}
             <div className="divide-y divide-gray-200">
-              {/* Basic Information */}
               <div className="px-6 py-5">
-                <h3 className="text-lg font-medium text-gray-800 mb-4">Basic Information</h3>
+                <h3 className="text-lg font-medium text-gray-800 mb-4">
+                  Basic Information
+                </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-sm font-medium text-gray-500 mb-1">Full Name</label>
+                    <label className="block text-sm font-medium text-gray-500 mb-1">
+                      Full Name
+                    </label>
                     <p className="text-gray-800">
                       {session?.user?.name || 'Not provided'}
                     </p>
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-500 mb-1">Email Address</label>
-                    <p className="text-gray-800">{session?.user?.email}</p>
+                    <label className="block text-sm font-medium text-gray-500 mb-1">
+                      Email Address
+                    </label>
+                    <p className="text-gray-800">
+                      {session?.user?.email || 'Not provided'}
+                    </p>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-500 mb-1">
+                      Subscription Status
+                    </label>
+                    <p
+                      className={
+                        subscriptionStatus === "ACTIVE"
+                          ? "text-green-600 font-semibold"
+                          : "text-red-600 font-semibold"
+                      }
+                    >
+                      {subscriptionStatus}
+                    </p>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-500 mb-1">
+                      Subscription Plan
+                    </label>
+                    <p className="text-gray-800">
+                      {subscriptionPlan}
+                    </p>
                   </div>
                 </div>
               </div>

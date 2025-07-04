@@ -12,7 +12,7 @@ export async function POST(req: Request) {
 
   await prisma.user.update({
     where: { email: session.user.email },
-    data: { subscription_status: "ACTIVE:Free" },
+    data: { subscription_status: "INACTIVE" },
   });
 
   return NextResponse.json({ message: "Free plan activated" });

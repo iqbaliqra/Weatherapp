@@ -1,5 +1,5 @@
-export type Location = {
-  id: string;
+export interface Location {
+  id?: string;
   city: string;
   country: string;
-};
+}

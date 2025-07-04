@@ -45,8 +45,8 @@ export async function POST(req: Request) {
       await prisma.user.update({
         where: { email: customerEmail },
         data: {
-          subscription_status: "ACTIVE:Premium",
-          stripeCustomerId: customerId, // <-- fixed here
+          subscription_status: "ACTIVE",
+          stripeCustomerId: customerId,
         },
       });
     }

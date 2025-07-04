@@ -1,0 +1,4649 @@
+[
+  {
+    "city": "New York",
+    "country": "USA",
+    "lat": 40.7128,
+    "long": -74.006  },
+  {
+    "city": "London",
+    "country": "UK",
+    "lat": 51.5074,
+    "long": -0.1278 },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "lat": 35.6895,
+    "long": 139.691  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "lat": -33.8688,
+    "long": 151.209  },
+  {
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.8566,
+    "long": 2.3522},
+  {
+    "city": "Dubai",
+    "country": "UAE",
+    "lat": 25.276987,
+    "long": 55.2962
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "lat": -22.9068,
+    "long": -43.172  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "lat": -33.9249,
+    "long": 18.4241 },
+  {
+    "city": "Moscow",
+    "country": "Russia",
+    "lat": 55.7558,
+    "long": 37.6176  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "lat": 43.6532,
+    "long": -79.383
+  },
+  {
+    "city": "Beijing",
+    "country": "China",
+    "lat": 39.9042,
+    "long": 116.407
+  },
+  {
+    "city": "Mumbai",
+    "country": "India",
+    "lat": 19.0760,
+    "long": 72.8777  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "lat": 13.7563,
+    "long": 100.501
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "lat": 52.5200,
+    "long": 13.4050  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "lat": 41.9028,
+    "long": 12.4964  },
+  {
+    "city": "Mexico",
+    "country": "Mexico",
+    "lat": 19.4326,
+    "long": -99.133
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "lat": 1.3521,
+    "long": 103.819
+  },
+  {
+    "city": "Seoul",
+    "country": "South Korea",
+    "lat": 37.5665,
+    "long": 126.978
+  },
+  {
+    "city": "Cairo",
+    "country": "Egypt",
+    "lat": 30.0444,
+    "long": 31.2357  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "lat": -36.8485,
+    "long": 174.763
+  },
+  {
+    "city": "Los Angeles",
+    "country": "USA",
+    "lat": 34.0522,
+    "long": -118.24
+  },
+  {
+    "city": "Chicago",
+    "country": "USA",
+    "lat": 41.8781,
+    "long": -87.629
+  },
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "lat": 22.3193,
+    "long": 114.169
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "lat": 31.2304,
+    "long": 121.473
+  },
+  {
+    "city": "Madrid",
+    "country": "Spain",
+    "lat": 40.4168,
+    "long": -3.7038  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "lat": 41.3851,
+    "long": 2.1734 },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3676,
+    "long": 4.9041 },
+  {
+    "city": "Vienna",
+    "country": "Austria",
+    "lat": 48.2082,
+    "long": 16.3738  },
+  {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.0755,
+    "long": 14.4378  },
+  {
+    "city": "Budapest",
+    "country": "Hungary",
+    "lat": 47.4979,
+    "long": 19.0402  },
+  {
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.2297,
+    "long": 21.0122  },
+  {
+    "city": "Stockholm",
+    "country": "Sweden",
+    "lat": 59.3293,
+    "long": 18.0686  },
+  {
+    "city": "Oslo",
+    "country": "Norway",
+    "lat": 59.9139,
+    "long": 10.7522  },
+  {
+    "city": "Helsinki",
+    "country": "Finland",
+    "lat": 60.1699,
+    "long": 24.9384  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.6761,
+    "long": 12.5683  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "lat": 53.3498,
+    "long": -6.2603  },
+  {
+    "city": "Edinburgh",
+    "country": "UK",
+    "lat": 55.9533,
+    "long": -3.1883  },
+  {
+    "city": "Manchester",
+    "country": "UK",
+    "lat": 53.4808,
+    "long": -2.2426  },
+  {
+    "city": "Birmingham",
+    "country": "UK",
+    "lat": 52.4862,
+    "long": -1.8904  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "lat": 38.7223,
+    "long": -9.1393  },
+  {
+    "city": "Athens",
+    "country": "Greece",
+    "lat": 37.9838,
+    "long": 23.7275  },
+  {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "lat": 41.0082,
+    "long": 28.9784  },
+  {
+    "city": "Dubrovnik",
+    "country": "Croatia",
+    "lat": 42.6507,
+    "long": 18.0944  },
+  {
+    "city": "Reykjavik",
+    "country": "Iceland",
+    "lat": 64.1466,
+    "long": -21.942
+  },
+  {
+    "city": "Marrakech",
+    "country": "Morocco",
+    "lat": 31.6295,
+    "long": -7.9811  },
+  {
+    "city": "Nairobi",
+    "country": "Kenya",
+    "lat": -1.2864,
+    "long": 36.8172  },
+  {
+    "city": "Lagos",
+    "country": "Nigeria",
+    "lat": 6.5244,
+    "long": 3.3792 },
+  {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "lat": -34.6037,
+    "long": -58.381
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "lat": -33.4489,
+    "long": -70.669
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "lat": -12.0464,
+    "long": -77.042
+  },
+  {
+    "city": "Bogotá",
+    "country": "Colombia",
+    "lat": 4.7110,
+    "long": -74.072
+  },
+  {
+    "city": "Caracas",
+    "country": "Venezuela",
+    "lat": 10.4806,
+    "long": -66.903
+  },
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "lat": 18.4663,
+    "long": -66.105
+  },
+  {
+    "city": "Havana",
+    "country": "Cuba",
+    "lat": 23.1136,
+    "long": -82.366
+  },
+  {
+    "city": "Kingston",
+    "country": "Jamaica",
+    "lat": 17.9714,
+    "long": -76.793
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "lat": 25.0343,
+    "long": -77.396
+  },
+  {
+    "city": "Anchorage",
+    "country": "USA",
+    "lat": 61.2181,
+    "long": -149.90
+  },
+  {
+    "city": "Honolulu",
+    "country": "USA",
+    "lat": 21.3069,
+    "long": -157.85
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "lat": 49.2827,
+    "long": -123.12
+  },
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "lat": 45.5017,
+    "long": -73.567
+  },
+  {
+    "city": "Quebec",
+    "country": "Canada",
+    "lat": 46.8139,
+    "long": -71.208
+  },
+  {
+    "city": "Calgary",
+    "country": "Canada",
+    "lat": 51.0447,
+    "long": -114.07
+  },
+  {
+    "city": "Wellington",
+    "country": "New Zealand",
+    "lat": -41.2865,
+    "long": 174.776
+  },
+  {
+    "city": "Christchurch",
+    "country": "New Zealand",
+    "lat": -43.5321,
+    "long": 172.636
+  },
+  {
+    "city": "Queenstown",
+    "country": "New Zealand",
+    "lat": -45.0312,
+    "long": 168.662
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "lat": -37.8136,
+    "long": 144.963
+  },
+  {
+    "city": "Brisbane",
+    "country": "Australia",
+    "lat": -27.4698,
+    "long": 153.025
+  },
+  {
+    "city": "Perth",
+    "country": "Australia",
+    "lat": -31.9505,
+    "long": 115.860
+  },
+  {
+    "city": "Adelaide",
+    "country": "Australia",
+    "lat": -34.9285,
+    "long": 138.600
+  },
+  {
+    "city": "Darwin",
+    "country": "Australia",
+    "lat": -12.4634,
+    "long": 130.845
+  },
+  {
+    "city": "Hobart",
+    "country": "Australia",
+    "lat": -42.8821,
+    "long": 147.327
+  },
+  {
+    "city": "Kathmandu",
+    "country": "Nepal",
+    "lat": 27.7172,
+    "long": 85.3240  },
+  {
+    "city": "Colombo",
+    "country": "Sri Lanka",
+    "lat": 6.9271,
+    "long": 79.8612  },
+  {
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "lat": 23.8103,
+    "long": 90.4125  },
+  {
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "lat": -6.2088,
+    "long": 106.845
+  },
+  {
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "lat": 3.1390,
+    "long": 101.686
+  },
+  {
+    "city": "Manila",
+    "country": "Philippines",
+    "lat": 14.5995,
+    "long": 120.984
+  },
+  {
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "lat": 21.0278,
+    "long": 105.834
+  },
+  {
+    "city": "Ho Chi Minh",
+    "country": "Vietnam",
+    "lat": 10.8231,
+    "long": 106.629
+  },
+  {
+    "city": "Phnom Penh",
+    "country": "Cambodia",
+    "lat": 11.5564,
+    "long": 104.928
+  },
+  {
+    "city": "Vientiane",
+    "country": "Laos",
+    "lat": 17.9757,
+    "long": 102.633
+  },
+  {
+    "city": "Yangon",
+    "country": "Myanmar",
+    "lat": 16.8409,
+    "long": 96.1735  },
+  {
+    "city": "Ulaanbaatar",
+    "country": "Mongolia",
+    "lat": 47.8864,
+    "long": 106.905
+  },
+  {
+    "city": "Almaty",
+    "country": "Kazakhstan",
+    "lat": 43.2220,
+    "long": 76.8512  },
+  {
+    "city": "Tashkent",
+    "country": "Uzbekistan",
+    "lat": 41.2995,
+    "long": 69.2401  },
+  {
+    "city": "Baku",
+    "country": "Azerbaijan",
+    "lat": 40.4093,
+    "long": 49.8671  },
+  {
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "lat": 41.7151,
+    "long": 44.8271  },
+  {
+    "city": "Yerevan",
+    "country": "Armenia",
+    "lat": 40.1792,
+    "long": 44.4991  },
+  {
+    "city": "Tehran",
+    "country": "Iran",
+    "lat": 35.6892,
+    "long": 51.3890  },
+  {
+    "city": "Baghdad",
+    "country": "Iraq",
+    "lat": 33.3152,
+    "long": 44.3661  },
+  {
+    "city": "Riyadh",
+    "country": "Saudi Arabia",
+    "lat": 24.7136,
+    "long": 46.6753  },
+  {
+    "city": "Doha",
+    "country": "Qatar",
+    "lat": 25.2769,
+    "long": 51.5200  },
+  {
+    "city": "Abu Dhabi",
+    "country": "UAE",
+    "lat": 24.4539,
+    "long": 54.3773  },
+  {
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.5859,
+    "long": 58.4059  },
+  {
+    "city": "Kuwait",
+    "country": "Kuwait",
+    "lat": 29.3759,
+    "long": 47.9774  },
+  {
+    "city": "Jerusalem",
+    "country": "Israel",
+    "lat": 31.7683,
+    "long": 35.2137  },
+  {
+    "city": "Tel Aviv",
+    "country": "Israel",
+    "lat": 32.0853,
+    "long": 34.7818  },
+  {
+    "city": "Amman",
+    "country": "Jordan",
+    "lat": 31.9454,
+    "long": 35.9284  },
+  {
+    "city": "Beirut",
+    "country": "Lebanon",
+    "lat": 33.8938,
+    "long": 35.5018  },
+  {
+    "city": "Damascus",
+    "country": "Syria",
+    "lat": 33.5138,
+    "long": 36.2765  },
+  {
+    "city": "Ankara",
+    "country": "Turkey",
+    "lat": 39.9334,
+    "long": 32.8597  },
+  {
+    "city": "Kyiv",
+    "country": "Ukraine",
+    "lat": 50.4501,
+    "long": 30.5234  },
+  {
+    "city": "Minsk",
+    "country": "Belarus",
+    "lat": 53.9045,
+    "long": 27.5615  },
+  {
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "lat": 54.6872,
+    "long": 25.2797  },
+  {
+    "city": "Tallinn",
+    "country": "Estonia",
+    "lat": 59.4370,
+    "long": 24.7536  },
+  {
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "lat": 48.1486,
+    "long": 17.1077  },
+  {
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "lat": 46.0569,
+    "long": 14.5058  },
+  {
+    "city": "Zagreb",
+    "country": "Croatia",
+    "lat": 45.8150,
+    "long": 15.9819  },
+  {
+    "city": "Sarajevo",
+    "country": "Bosnia and Herzegovina",
+    "lat": 43.8563,
+    "long": 18.4131  },
+  {
+    "city": "Belgrade",
+    "country": "Serbia",
+    "lat": 44.8206,
+    "long": 20.4622  },
+  {
+    "city": "Podgorica",
+    "country": "Montenegro",
+    "lat": 42.4304,
+    "long": 19.2594  },
+  {
+    "city": "Pristina",
+    "country": "Kosovo",
+    "lat": 42.6629,
+    "long": 21.1655  },
+  {
+    "city": "Tirana",
+    "country": "Albania",
+    "lat": 41.3275,
+    "long": 19.8187  },
+  {
+    "city": "Skopje",
+    "country": "North Macedonia",
+    "lat": 41.9973,
+    "long": 21.4280  },
+  {
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "lat": 42.6977,
+    "long": 23.3219  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.4268,
+    "long": 26.1025  },
+  {
+    "city": "Chisinau",
+    "country": "Moldova",
+    "lat": 47.0105,
+    "long": 28.8638  },
+  {
+    "city": "Tórshavn",
+    "country": "Faroe Islands",
+    "lat": 62.0079,
+    "long": -6.7909  },
+  {
+    "city": "Nuuk",
+    "country": "Greenland",
+    "lat": 64.1814,
+    "long": -51.694
+  },
+  {
+    "city": "Reykjavik",
+    "country": "Iceland",
+    "lat": 64.1466,
+    "long": -21.942
+  },
+  {
+    "city": "Gibraltar",
+    "country": "Gibraltar",
+    "lat": 36.1408,
+    "long": -5.3536  },
+  {
+    "city": "Valletta",
+    "country": "Malta",
+    "lat": 35.8989,
+    "long": 14.5146  },
+  {
+    "city": "Andorra la Vella",
+    "country": "Andorra",
+    "lat": 42.5063,
+    "long": 1.5218 },
+  {
+    "city": "San Marino",
+    "country": "San Marino",
+    "lat": 43.9424,
+    "long": 12.4578  },
+  {
+    "city": "Bern",
+    "country": "Switzerland",
+    "lat": 46.9480,
+    "long": 7.4474 },
+  {
+    "city": "Zurich",
+    "country": "Switzerland",
+    "lat": 47.3769,
+    "long": 8.5417 },
+  {
+    "city": "Geneva",
+    "country": "Switzerland",
+    "lat": 46.2044,
+    "long": 6.1432 },
+  {
+    "city": "Osaka",
+    "country": "Japan",
+    "lat": 34.6937,
+    "long": 135.502
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "lat": 35.0116,
+    "long": 135.768
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "lat": 35.4437,
+    "long": 139.638
+  },
+  {
+    "city": "Nagoya",
+    "country": "Japan",
+    "lat": 35.1815,
+    "long": 136.906
+  },
+  {
+    "city": "Sapporo",
+    "country": "Japan",
+    "lat": 43.0618,
+    "long": 141.354
+  },
+  {
+    "city": "Fukuoka",
+    "country": "Japan",
+    "lat": 33.5904,
+    "long": 130.401
+  },
+  {
+    "city": "Kobe",
+    "country": "Japan",
+    "lat": 34.6901,
+    "long": 135.195
+  },
+  {
+    "city": "Hiroshima",
+    "country": "Japan",
+    "lat": 34.3853,
+    "long": 132.455
+  },
+  {
+    "city": "Sendai",
+    "country": "Japan",
+    "lat": 38.2682,
+    "long": 140.869
+  },
+  {
+    "city": "Busan",
+    "country": "South Korea",
+    "lat": 35.1796,
+    "long": 129.075
+  },
+  {
+    "city": "Incheon",
+    "country": "South Korea",
+    "lat": 37.4563,
+    "long": 126.705
+  },
+  {
+    "city": "Daegu",
+    "country": "South Korea",
+    "lat": 35.8714,
+    "long": 128.601
+  },
+  {
+    "city": "Daejeon",
+    "country": "South Korea",
+    "lat": 36.3504,
+    "long": 127.384
+  },
+  {
+    "city": "Gwangju",
+    "country": "South Korea",
+    "lat": 35.1595,
+    "long": 126.852
+  },
+  {
+    "city": "Ulsan",
+    "country": "South Korea",
+    "lat": 35.5384,
+    "long": 129.311
+  },
+  {
+    "city": "Jeju",
+    "country": "South Korea",
+    "lat": 33.4996,
+    "long": 126.531
+  },
+  {
+    "city": "Macau",
+    "country": "China",
+    "lat": 22.1987,
+    "long": 113.543
+  },
+  {
+    "city": "Taipei",
+    "country": "Taiwan",
+    "lat": 25.0330,
+    "long": 121.565
+  },
+  {
+    "city": "Kaohsiung",
+    "country": "Taiwan",
+    "lat": 22.6203,
+    "long": 120.312
+  },
+  {
+    "city": "Taichung",
+    "country": "Taiwan",
+    "lat": 24.1477,
+    "long": 120.673
+  },
+  {
+    "city": "Tainan",
+    "country": "Taiwan",
+    "lat": 22.9997,
+    "long": 120.227
+  },
+  {
+    "city": "Pyongyang",
+    "country": "North Korea",
+    "lat": 39.0392,
+    "long": 125.762
+  },
+  {
+    "city": "Ulan Bator",
+    "country": "Mongolia",
+    "lat": 47.8864,
+    "long": 106.905
+  },
+  {
+    "city": "Astana",
+    "country": "Kazakhstan",
+    "lat": 51.1605,
+    "long": 71.4704  },
+  {
+    "city": "Bishkek",
+    "country": "Kyrgyzstan",
+    "lat": 42.8746,
+    "long": 74.5698  },
+  {
+    "city": "Dushanbe",
+    "country": "Tajikistan",
+    "lat": 38.5598,
+    "long": 68.7870  },
+  {
+    "city": "Ashgabat",
+    "country": "Turkmenistan",
+    "lat": 37.9601,
+    "long": 58.3261  },
+  {
+    "city": "Tashkent",
+    "country": "Uzbekistan",
+    "lat": 41.2995,
+    "long": 69.2401  },
+  {
+    "city": "Kabul",
+    "country": "Afghanistan",
+    "lat": 34.5553,
+    "long": 69.2075  },
+  {
+    "city": "Islamabad",
+    "country": "Pakistan",
+    "lat": 33.6844,
+    "long": 73.0479  },
+  {
+    "city": "Karachi",
+    "country": "Pakistan",
+    "lat": 24.8607,
+    "long": 67.0011  },
+  {
+    "city": "Lahore",
+    "country": "Pakistan",
+    "lat": 31.5204,
+    "long": 74.3587  },
+  {
+    "city": "Rawalpindi",
+    "country": "Pakistan",
+    "lat": 33.5651,
+    "long": 73.0169  },
+  {
+    "city": "Multan",
+    "country": "Pakistan",
+    "lat": 30.1575,
+    "long": 71.5249  },
+  {
+    "city": "Peshawar",
+    "country": "Pakistan",
+    "lat": 34.0150,
+    "long": 71.5249  },
+  {
+    "city": "Quetta",
+    "country": "Pakistan",
+    "lat": 30.1798,
+    "long": 66.9750  },
+  {
+    "city": "Hyderabad",
+    "country": "Pakistan",
+    "lat": 25.3969,
+    "long": 68.3778  },
+  {
+    "city": "Faisalabad",
+    "country": "Pakistan",
+    "lat": 31.4180,
+    "long": 73.0790  },
+  {
+    "city": "Thimphu",
+    "country": "Bhutan",
+    "lat": 27.4728,
+    "long": 89.6390  },
+  {
+    "city": "Male",
+    "country": "Maldives",
+    "lat": 4.1755,
+    "long": 73.5093  },
+  {
+    "city": "Thimphu",
+    "country": "Bhutan",
+    "lat": 27.4728,
+    "long": 89.6390  },
+  {
+    "city": "Bandar Seri Begawan",
+    "country": "Brunei",
+    "lat": 4.9031,
+    "long": 114.939
+  },
+  {
+    "city": "Dili",
+    "country": "East Timor",
+    "lat": -8.5569,
+    "long": 125.560
+  },
+  {
+    "city": "Port Moresby",
+    "country": "Papua New Guinea",
+    "lat": -9.4438,
+    "long": 147.180
+  },
+  {
+    "city": "Honiara",
+    "country": "Solomon Islands",
+    "lat": -9.4456,
+    "long": 159.972
+  },
+  {
+    "city": "Port Vila",
+    "country": "Vanuatu",
+    "lat": -17.7333,
+    "long": 168.327
+  },
+  {
+    "city": "Suva",
+    "country": "Fiji",
+    "lat": -18.1248,
+    "long": 178.450
+  },
+  {
+    "city": "Nuku'alofa",
+    "country": "Tonga",
+    "lat": -21.1393,
+    "long": -175.20
+  },
+  {
+    "city": "Apia",
+    "country": "Samoa",
+    "lat": -13.8507,
+    "long": -171.75
+  },
+  {
+    "city": "Pago Pago",
+    "country": "American Samoa",
+    "lat": -14.2710,
+    "long": -170.13
+  },
+  {
+    "city": "Majuro",
+    "country": "Marshall Islands",
+    "lat": 7.0897,
+    "long": 171.380
+  },
+  {
+    "city": "Tarawa",
+    "country": "Kiribati",
+    "lat": 1.3291,
+    "long": 172.979
+  },
+  {
+    "city": "Funafuti",
+    "country": "Tuvalu",
+    "lat": -8.5203,
+    "long": 179.196
+  },
+  {
+    "city": "Palikir",
+    "country": "Micronesia",
+    "lat": 6.9147,
+    "long": 158.161
+  },
+  {
+    "city": "Yaren",
+    "country": "Nauru",
+    "lat": -0.5467,
+    "long": 166.921
+  },
+  {
+    "city": "Alofi",
+    "country": "Niue",
+    "lat": -19.0554,
+    "long": -169.91
+  },
+  {
+    "city": "Avarua",
+    "country": "Cook Islands",
+    "lat": -21.2129,
+    "long": -159.78
+  },
+  {
+    "city": "Papeete",
+    "country": "French Polynesia",
+    "lat": -17.5395,
+    "long": -149.56
+  },
+  {
+    "city": "Adamstown",
+    "country": "Pitcairn Islands",
+    "lat": -25.0663,
+    "long": -130.10
+  },
+  {
+    "city": "Hanga Roa",
+    "country": "Easter Island",
+    "lat": -27.1486,
+    "long": -109.42
+  },
+  {
+    "city": "Kingston",
+    "country": "Norfolk Island",
+    "lat": -29.0569,
+    "long": 167.961
+  },
+  {
+    "city": "Saipan",
+    "country": "Northern Mariana Islands",
+    "lat": 15.1778,
+    "long": 145.750
+  },
+  {
+    "city": "Guam",
+    "country": "Guam",
+    "lat": 13.4443,
+    "long": 144.793
+  },
+  {
+    "city": "Koror",
+    "country": "Palau",
+    "lat": 7.3419,
+    "long": 134.479
+  },
+  {
+    "city": "Ngerulmud",
+    "country": "Palau",
+    "lat": 7.5004,
+    "long": 134.624
+  },
+  {
+    "city": "Melekeok",
+    "country": "Palau",
+    "lat": 7.5004,
+    "long": 134.624
+  },
+  {
+    "city": "Colonia",
+    "country": "Micronesia",
+    "lat": 9.5167,
+    "long": 138.133
+  },
+  {
+    "city": "Tifariti",
+    "country": "Western Sahara",
+    "lat": 26.0928,
+    "long": -10.608
+  },
+  {
+    "city": "Laayoune",
+    "country": "Western Sahara",
+    "lat": 27.1536,
+    "long": -13.203
+  },
+  {
+    "city": "Tindouf",
+    "country": "Algeria",
+    "lat": 27.6751,
+    "long": -8.1277  },
+  {
+    "city": "Bir Lehlou",
+    "country": "Western Sahara",
+    "lat": 26.1186,
+    "long": -9.7356  },
+  {
+    "city": "Dakhla",
+    "country": "Western Sahara",
+    "lat": 23.6848,
+    "long": -15.958
+  },
+  {
+    "city": "El Aaiún",
+    "country": "Western Sahara",
+    "lat": 27.1536,
+    "long": -13.203
+  },
+  {
+    "city": "Smara",
+    "country": "Western Sahara",
+    "lat": 26.7384,
+    "long": -11.671
+  },
+  {
+    "city": "Boujdour",
+    "country": "Western Sahara",
+    "lat": 26.1306,
+    "long": -14.485
+  },
+  {
+    "city": "Awsard",
+    "country": "Western Sahara",
+    "lat": 22.7456,
+    "long": -14.390
+  },
+  {
+    "city": "Zouerate",
+    "country": "Mauritania",
+    "lat": 22.7354,
+    "long": -12.473
+  },
+  {
+    "city": "Atar",
+    "country": "Mauritania",
+    "lat": 20.5091,
+    "long": -13.044
+  },
+  {
+    "city": "Nouadhibou",
+    "country": "Mauritania",
+    "lat": 20.9425,
+    "long": -17.038
+  },
+  {
+    "city": "Nouakchott",
+    "country": "Mauritania",
+    "lat": 18.0731,
+    "long": -15.958
+  },
+  {
+    "city": "Rosso",
+    "country": "Mauritania",
+    "lat": 16.5116,
+    "long": -15.805
+  },
+  {
+    "city": "Kaédi",
+    "country": "Mauritania",
+    "lat": 16.1506,
+    "long": -13.500
+  },
+  {
+    "city": "Kiffa",
+    "country": "Mauritania",
+    "lat": 16.6160,
+    "long": -11.404
+  },
+  {
+    "city": "Ayoun el Atrous",
+    "country": "Mauritania",
+    "lat": 16.6667,
+    "long": -9.6167  },
+  {
+    "city": "Selibaby",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Aleg",
+    "country": "Mauritania",
+    "lat": 17.0500,
+    "long": -13.916
+  },
+  {
+    "city": "Tidjikja",
+    "country": "Mauritania",
+    "lat": 18.5500,
+    "long": -11.416
+  },
+  {
+    "city": "Néma",
+    "country": "Mauritania",
+    "lat": 16.6167,
+    "long": -7.2500  },
+  {
+    "city": "Fderick",
+    "country": "Mauritania",
+    "lat": 22.6833,
+    "long": -12.716
+  },
+  {
+    "city": "Sélibabi",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Akjoujt",
+    "country": "Mauritania",
+    "lat": 19.7500,
+    "long": -14.383
+  },
+  {
+    "city": "Guelmim",
+    "country": "Morocco",
+    "lat": 28.9833,
+    "long": -10.066
+  },
+  {
+    "city": "Tan-Tan",
+    "country": "Morocco",
+    "lat": 28.4333,
+    "long": -11.100
+  },
+  {
+    "city": "Taroudant",
+    "country": "Morocco",
+    "lat": 30.4667,
+    "long": -8.8667  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azrou",
+    "country": "Morocco",
+    "lat": 33.4417,
+    "long": -5.2214  },
+  {
+    "city": "Khénifra",
+    "country": "Morocco",
+    "lat": 32.9394,
+    "long": -5.6675  },
+  {
+    "city": "Beni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Settat",
+    "country": "Morocco",
+    "lat": 33.0023,
+    "long": -7.6198  },
+  {
+    "city": "Khouribga",
+    "country": "Morocco",
+    "lat": 32.8833,
+    "long": -6.9167  },
+  {
+    "city": "Béni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Safi",
+    "country": "Morocco",
+    "lat": 32.2833,
+    "long": -9.2333  },
+  {
+    "city": "El Jadida",
+    "country": "Morocco",
+    "lat": 33.2333,
+    "long": -8.5000  },
+  {
+    "city": "Youssoufia",
+    "country": "Morocco",
+    "lat": 32.2500,
+    "long": -8.5333  },
+  {
+    "city": "Oujda",
+    "country": "Morocco",
+    "lat": 34.6867,
+    "long": -1.9114  },
+  {
+    "city": "Nador",
+    "country": "Morocco",
+    "lat": 35.1667,
+    "long": -2.9333  },
+  {
+    "city": "Al Hoceima",
+    "country": "Morocco",
+    "lat": 35.2500,
+    "long": -3.9333  },
+  {
+    "city": "Taza",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -4.0167  },
+  {
+    "city": "Taourirt",
+    "country": "Morocco",
+    "lat": 34.4000,
+    "long": -2.9000  },
+  {
+    "city": "Jerada",
+    "country": "Morocco",
+    "lat": 34.3167,
+    "long": -2.1667  },
+  {
+    "city": "Figuig",
+    "country": "Morocco",
+    "lat": 32.1167,
+    "long": -1.2333  },
+  {
+    "city": "Berkane",
+    "country": "Morocco",
+    "lat": 34.9167,
+    "long": -2.3167  },
+  {
+    "city": "Sidi Slimane",
+    "country": "Morocco",
+    "lat": 34.2667,
+    "long": -5.9333  },
+  {
+    "city": "Sidi Kacem",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -5.7000  },
+  {
+    "city": "Kénitra",
+    "country": "Morocco",
+    "lat": 34.2500,
+    "long": -6.5833  },
+  {
+    "city": "Meknès",
+    "country": "Morocco",
+    "lat": 33.8833,
+    "long": -5.5500  },
+  {
+    "city": "Fès",
+    "country": "Morocco",
+    "lat": 34.0433,
+    "long": -5.0033  },
+  {
+    "city": "Tanger",
+    "country": "Morocco",
+    "lat": 35.7767,
+    "long": -5.8039  },
+  {
+    "city": "Tétouan",
+    "country": "Morocco",
+    "lat": 35.5667,
+    "long": -5.3667  },
+  {
+    "city": "Larache",
+    "country": "Morocco",
+    "lat": 35.1833,
+    "long": -6.1500  },
+  {
+    "city": "Ksar El Kebir",
+    "country": "Morocco",
+    "lat": 35.0000,
+    "long": -5.9000  },
+  {
+    "city": "Asilah",
+    "country": "Morocco",
+    "lat": 35.4667,
+    "long": -6.0333  },
+  {
+    "city": "Chefchaouen",
+    "country": "Morocco",
+    "lat": 35.1714,
+    "long": -5.2697  },
+  {
+    "city": "Ouazzane",
+    "country": "Morocco",
+    "lat": 34.8000,
+    "long": -5.6000  },
+  {
+    "city": "Sefrou",
+    "country": "Morocco",
+    "lat": 33.8303,
+    "long": -4.8353  },
+  {
+    "city": "Boulemane",
+    "country": "Morocco",
+    "lat": 33.3667,
+    "long": -4.7333  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azilal",
+    "country": "Morocco",
+    "lat": 31.9667,
+    "long": -6.5667  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Tinghir",
+    "country": "Morocco",
+    "lat": 31.5167,
+    "long": -5.5333  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Zagora",
+    "country": "Morocco",
+    "lat": 30.3167,
+    "long": -5.8333  },
+  {
+    "city": "Tata",
+    "country": "Morocco",
+    "lat": 29.7500,
+    "long": -7.9667  },
+  {
+    "city": "Goulmima",
+    "country": "Morocco",
+    "lat": 31.6833,
+    "long": -4.9500  },
+  {
+    "city": "Alnif",
+    "country": "Morocco",
+    "lat": 31.1167,
+    "long": -5.1667  },
+  {
+    "city": "Assa",
+    "country": "Morocco",
+    "lat": 28.6000,
+    "long": -9.4333  },
+  {
+    "city": "Smara",
+    "country": "Western Sahara",
+    "lat": 26.7384,
+    "long": -11.671
+  },
+  {
+    "city": "Laayoune",
+    "country": "Western Sahara",
+    "lat": 27.1536,
+    "long": -13.203
+  },
+  {
+    "city": "Dakhla",
+    "country": "Western Sahara",
+    "lat": 23.6848,
+    "long": -15.958
+  },
+  {
+    "city": "Boujdour",
+    "country": "Western Sahara",
+    "lat": 26.1306,
+    "long": -14.485
+  },
+  {
+    "city": "Awsard",
+    "country": "Western Sahara",
+    "lat": 22.7456,
+    "long": -14.390
+  },
+  {
+    "city": "Tifariti",
+    "country": "Western Sahara",
+    "lat": 26.0928,
+    "long": -10.608
+  },
+  {
+    "city": "Bir Lehlou",
+    "country": "Western Sahara",
+    "lat": 26.1186,
+    "long": -9.7356  },
+  {
+    "city": "Zouerate",
+    "country": "Mauritania",
+    "lat": 22.7354,
+    "long": -12.473
+  },
+  {
+    "city": "Atar",
+    "country": "Mauritania",
+    "lat": 20.5091,
+    "long": -13.044
+  },
+  {
+    "city": "Nouadhibou",
+    "country": "Mauritania",
+    "lat": 20.9425,
+    "long": -17.038
+  },
+  {
+    "city": "Nouakchott",
+    "country": "Mauritania",
+    "lat": 18.0731,
+    "long": -15.958
+  },
+  {
+    "city": "Rosso",
+    "country": "Mauritania",
+    "lat": 16.5116,
+    "long": -15.805
+  },
+  {
+    "city": "Kaédi",
+    "country": "Mauritania",
+    "lat": 16.1506,
+    "long": -13.500
+  },
+  {
+    "city": "Kiffa",
+    "country": "Mauritania",
+    "lat": 16.6160,
+    "long": -11.404
+  },
+  {
+    "city": "Ayoun el Atrous",
+    "country": "Mauritania",
+    "lat": 16.6667,
+    "long": -9.6167  },
+  {
+    "city": "Selibaby",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Aleg",
+    "country": "Mauritania",
+    "lat": 17.0500,
+    "long": -13.916
+  },
+  {
+    "city": "Tidjikja",
+    "country": "Mauritania",
+    "lat": 18.5500,
+    "long": -11.416
+  },
+  {
+    "city": "Néma",
+    "country": "Mauritania",
+    "lat": 16.6167,
+    "long": -7.2500  },
+  {
+    "city": "Fderick",
+    "country": "Mauritania",
+    "lat": 22.6833,
+    "long": -12.716
+  },
+  {
+    "city": "Sélibabi",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Akjoujt",
+    "country": "Mauritania",
+    "lat": 19.7500,
+    "long": -14.383
+  },
+  {
+    "city": "Guelmim",
+    "country": "Morocco",
+    "lat": 28.9833,
+    "long": -10.066
+  },
+  {
+    "city": "Tan-Tan",
+    "country": "Morocco",
+    "lat": 28.4333,
+    "long": -11.100
+  },
+  {
+    "city": "Taroudant",
+    "country": "Morocco",
+    "lat": 30.4667,
+    "long": -8.8667  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azrou",
+    "country": "Morocco",
+    "lat": 33.4417,
+    "long": -5.2214  },
+  {
+    "city": "Khénifra",
+    "country": "Morocco",
+    "lat": 32.9394,
+    "long": -5.6675  },
+  {
+    "city": "Beni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Settat",
+    "country": "Morocco",
+    "lat": 33.0023,
+    "long": -7.6198  },
+  {
+    "city": "Khouribga",
+    "country": "Morocco",
+    "lat": 32.8833,
+    "long": -6.9167  },
+  {
+    "city": "Béni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Safi",
+    "country": "Morocco",
+    "lat": 32.2833,
+    "long": -9.2333  },
+  {
+    "city": "El Jadida",
+    "country": "Morocco",
+    "lat": 33.2333,
+    "long": -8.5000  },
+  {
+    "city": "Youssoufia",
+    "country": "Morocco",
+    "lat": 32.2500,
+    "long": -8.5333  },
+  {
+    "city": "Oujda",
+    "country": "Morocco",
+    "lat": 34.6867,
+    "long": -1.9114  },
+  {
+    "city": "Nador",
+    "country": "Morocco",
+    "lat": 35.1667,
+    "long": -2.9333  },
+  {
+    "city": "Al Hoceima",
+    "country": "Morocco",
+    "lat": 35.2500,
+    "long": -3.9333  },
+  {
+    "city": "Taza",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -4.0167  },
+  {
+    "city": "Taourirt",
+    "country": "Morocco",
+    "lat": 34.4000,
+    "long": -2.9000  },
+  {
+    "city": "Jerada",
+    "country": "Morocco",
+    "lat": 34.3167,
+    "long": -2.1667  },
+  {
+    "city": "Figuig",
+    "country": "Morocco",
+    "lat": 32.1167,
+    "long": -1.2333  },
+  {
+    "city": "Berkane",
+    "country": "Morocco",
+    "lat": 34.9167,
+    "long": -2.3167  },
+  {
+    "city": "Sidi Slimane",
+    "country": "Morocco",
+    "lat": 34.2667,
+    "long": -5.9333  },
+  {
+    "city": "Sidi Kacem",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -5.7000  },
+  {
+    "city": "Kénitra",
+    "country": "Morocco",
+    "lat": 34.2500,
+    "long": -6.5833  },
+  {
+    "city": "Meknès",
+    "country": "Morocco",
+    "lat": 33.8833,
+    "long": -5.5500  },
+  {
+    "city": "Fès",
+    "country": "Morocco",
+    "lat": 34.0433,
+    "long": -5.0033  },
+  {
+    "city": "Tanger",
+    "country": "Morocco",
+    "lat": 35.7767,
+    "long": -5.8039  },
+  {
+    "city": "Tétouan",
+    "country": "Morocco",
+    "lat": 35.5667,
+    "long": -5.3667  },
+  {
+    "city": "Larache",
+    "country": "Morocco",
+    "lat": 35.1833,
+    "long": -6.1500  },
+  {
+    "city": "Ksar El Kebir",
+    "country": "Morocco",
+    "lat": 35.0000,
+    "long": -5.9000  },
+  {
+    "city": "Asilah",
+    "country": "Morocco",
+    "lat": 35.4667,
+    "long": -6.0333  },
+  {
+    "city": "Chefchaouen",
+    "country": "Morocco",
+    "lat": 35.1714,
+    "long": -5.2697  },
+  {
+    "city": "Ouazzane",
+    "country": "Morocco",
+    "lat": 34.8000,
+    "long": -5.6000  },
+  {
+    "city": "Sefrou",
+    "country": "Morocco",
+    "lat": 33.8303,
+    "long": -4.8353  },
+  {
+    "city": "Boulemane",
+    "country": "Morocco",
+    "lat": 33.3667,
+    "long": -4.7333  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azilal",
+    "country": "Morocco",
+    "lat": 31.9667,
+    "long": -6.5667  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Tinghir",
+    "country": "Morocco",
+    "lat": 31.5167,
+    "long": -5.5333  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Zagora",
+    "country": "Morocco",
+    "lat": 30.3167,
+    "long": -5.8333  },
+  {
+    "city": "Tata",
+    "country": "Morocco",
+    "lat": 29.7500,
+    "long": -7.9667  },
+  {
+    "city": "Goulmima",
+    "country": "Morocco",
+    "lat": 31.6833,
+    "long": -4.9500  },
+  {
+    "city": "Alnif",
+    "country": "Morocco",
+    "lat": 31.1167,
+    "long": -5.1667  },
+  {
+    "city": "Assa",
+    "country": "Morocco",
+    "lat": 28.6000,
+    "long": -9.4333  },
+  {
+    "city": "Smara",
+    "country": "Western Sahara",
+    "lat": 26.7384,
+    "long": -11.671
+  },
+  {
+    "city": "Laayoune",
+    "country": "Western Sahara",
+    "lat": 27.1536,
+    "long": -13.203
+  },
+  {
+    "city": "Dakhla",
+    "country": "Western Sahara",
+    "lat": 23.6848,
+    "long": -15.958
+  },
+  {
+    "city": "Boujdour",
+    "country": "Western Sahara",
+    "lat": 26.1306,
+    "long": -14.485
+  },
+  {
+    "city": "Awsard",
+    "country": "Western Sahara",
+    "lat": 22.7456,
+    "long": -14.390
+  },
+  {
+    "city": "Tifariti",
+    "country": "Western Sahara",
+    "lat": 26.0928,
+    "long": -10.608
+  },
+  {
+    "city": "Bir Lehlou",
+    "country": "Western Sahara",
+    "lat": 26.1186,
+    "long": -9.7356  },
+  {
+    "city": "Zouerate",
+    "country": "Mauritania",
+    "lat": 22.7354,
+    "long": -12.473
+  },
+  {
+    "city": "Atar",
+    "country": "Mauritania",
+    "lat": 20.5091,
+    "long": -13.044
+  },
+  {
+    "city": "Nouadhibou",
+    "country": "Mauritania",
+    "lat": 20.9425,
+    "long": -17.038
+  },
+  {
+    "city": "Nouakchott",
+    "country": "Mauritania",
+    "lat": 18.0731,
+    "long": -15.958
+  },
+  {
+    "city": "Rosso",
+    "country": "Mauritania",
+    "lat": 16.5116,
+    "long": -15.805
+  },
+  {
+    "city": "Kaédi",
+    "country": "Mauritania",
+    "lat": 16.1506,
+    "long": -13.500
+  },
+  {
+    "city": "Kiffa",
+    "country": "Mauritania",
+    "lat": 16.6160,
+    "long": -11.404
+  },
+  {
+    "city": "Ayoun el Atrous",
+    "country": "Mauritania",
+    "lat": 16.6667,
+    "long": -9.6167  },
+  {
+    "city": "Selibaby",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Aleg",
+    "country": "Mauritania",
+    "lat": 17.0500,
+    "long": -13.916
+  },
+  {
+    "city": "Tidjikja",
+    "country": "Mauritania",
+    "lat": 18.5500,
+    "long": -11.416
+  },
+  {
+    "city": "Néma",
+    "country": "Mauritania",
+    "lat": 16.6167,
+    "long": -7.2500  },
+  {
+    "city": "Fderick",
+    "country": "Mauritania",
+    "lat": 22.6833,
+    "long": -12.716
+  },
+  {
+    "city": "Sélibabi",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Akjoujt",
+    "country": "Mauritania",
+    "lat": 19.7500,
+    "long": -14.383
+  },
+  {
+    "city": "Guelmim",
+    "country": "Morocco",
+    "lat": 28.9833,
+    "long": -10.066
+  },
+  {
+    "city": "Tan-Tan",
+    "country": "Morocco",
+    "lat": 28.4333,
+    "long": -11.100
+  },
+  {
+    "city": "Taroudant",
+    "country": "Morocco",
+    "lat": 30.4667,
+    "long": -8.8667  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azrou",
+    "country": "Morocco",
+    "lat": 33.4417,
+    "long": -5.2214  },
+  {
+    "city": "Khénifra",
+    "country": "Morocco",
+    "lat": 32.9394,
+    "long": -5.6675  },
+  {
+    "city": "Beni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Settat",
+    "country": "Morocco",
+    "lat": 33.0023,
+    "long": -7.6198  },
+  {
+    "city": "Khouribga",
+    "country": "Morocco",
+    "lat": 32.8833,
+    "long": -6.9167  },
+  {
+    "city": "Béni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Safi",
+    "country": "Morocco",
+    "lat": 32.2833,
+    "long": -9.2333  },
+  {
+    "city": "El Jadida",
+    "country": "Morocco",
+    "lat": 33.2333,
+    "long": -8.5000  },
+  {
+    "city": "Youssoufia",
+    "country": "Morocco",
+    "lat": 32.2500,
+    "long": -8.5333  },
+  {
+    "city": "Oujda",
+    "country": "Morocco",
+    "lat": 34.6867,
+    "long": -1.9114  },
+  {
+    "city": "Nador",
+    "country": "Morocco",
+    "lat": 35.1667,
+    "long": -2.9333  },
+  {
+    "city": "Al Hoceima",
+    "country": "Morocco",
+    "lat": 35.2500,
+    "long": -3.9333  },
+  {
+    "city": "Taza",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -4.0167  },
+  {
+    "city": "Taourirt",
+    "country": "Morocco",
+    "lat": 34.4000,
+    "long": -2.9000  },
+  {
+    "city": "Jerada",
+    "country": "Morocco",
+    "lat": 34.3167,
+    "long": -2.1667  },
+  {
+    "city": "Figuig",
+    "country": "Morocco",
+    "lat": 32.1167,
+    "long": -1.2333  },
+  {
+    "city": "Berkane",
+    "country": "Morocco",
+    "lat": 34.9167,
+    "long": -2.3167  },
+  {
+    "city": "Sidi Slimane",
+    "country": "Morocco",
+    "lat": 34.2667,
+    "long": -5.9333  },
+  {
+    "city": "Sidi Kacem",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -5.7000  },
+  {
+    "city": "Kénitra",
+    "country": "Morocco",
+    "lat": 34.2500,
+    "long": -6.5833  },
+  {
+    "city": "Meknès",
+    "country": "Morocco",
+    "lat": 33.8833,
+    "long": -5.5500  },
+  {
+    "city": "Fès",
+    "country": "Morocco",
+    "lat": 34.0433,
+    "long": -5.0033  },
+  {
+    "city": "Tanger",
+    "country": "Morocco",
+    "lat": 35.7767,
+    "long": -5.8039  },
+  {
+    "city": "Tétouan",
+    "country": "Morocco",
+    "lat": 35.5667,
+    "long": -5.3667  },
+  {
+    "city": "Larache",
+    "country": "Morocco",
+    "lat": 35.1833,
+    "long": -6.1500  },
+  {
+    "city": "Ksar El Kebir",
+    "country": "Morocco",
+    "lat": 35.0000,
+    "long": -5.9000  },
+  {
+    "city": "Asilah",
+    "country": "Morocco",
+    "lat": 35.4667,
+    "long": -6.0333  },
+  {
+    "city": "Chefchaouen",
+    "country": "Morocco",
+    "lat": 35.1714,
+    "long": -5.2697  },
+  {
+    "city": "Ouazzane",
+    "country": "Morocco",
+    "lat": 34.8000,
+    "long": -5.6000  },
+  {
+    "city": "Sefrou",
+    "country": "Morocco",
+    "lat": 33.8303,
+    "long": -4.8353  },
+  {
+    "city": "Boulemane",
+    "country": "Morocco",
+    "lat": 33.3667,
+    "long": -4.7333  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azilal",
+    "country": "Morocco",
+    "lat": 31.9667,
+    "long": -6.5667  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Tinghir",
+    "country": "Morocco",
+    "lat": 31.5167,
+    "long": -5.5333  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Zagora",
+    "country": "Morocco",
+    "lat": 30.3167,
+    "long": -5.8333  },
+  {
+    "city": "Tata",
+    "country": "Morocco",
+    "lat": 29.7500,
+    "long": -7.9667  },
+  {
+    "city": "Goulmima",
+    "country": "Morocco",
+    "lat": 31.6833,
+    "long": -4.9500  },
+  {
+    "city": "Alnif",
+    "country": "Morocco",
+    "lat": 31.1167,
+    "long": -5.1667  },
+  {
+    "city": "Assa",
+    "country": "Morocco",
+    "lat": 28.6000,
+    "long": -9.4333  },
+  {
+    "city": "Smara",
+    "country": "Western Sahara",
+    "lat": 26.7384,
+    "long": -11.671
+  },
+  {
+    "city": "Laayoune",
+    "country": "Western Sahara",
+    "lat": 27.1536,
+    "long": -13.203
+  },
+  {
+    "city": "Dakhla",
+    "country": "Western Sahara",
+    "lat": 23.6848,
+    "long": -15.958
+  },
+  {
+    "city": "Boujdour",
+    "country": "Western Sahara",
+    "lat": 26.1306,
+    "long": -14.485
+  },
+  {
+    "city": "Awsard",
+    "country": "Western Sahara",
+    "lat": 22.7456,
+    "long": -14.390
+  },
+  {
+    "city": "Tifariti",
+    "country": "Western Sahara",
+    "lat": 26.0928,
+    "long": -10.608
+  },
+  {
+    "city": "Bir Lehlou",
+    "country": "Western Sahara",
+    "lat": 26.1186,
+    "long": -9.7356  },
+  {
+    "city": "Zouerate",
+    "country": "Mauritania",
+    "lat": 22.7354,
+    "long": -12.473
+  },
+  {
+    "city": "Atar",
+    "country": "Mauritania",
+    "lat": 20.5091,
+    "long": -13.044
+  },
+  {
+    "city": "Nouadhibou",
+    "country": "Mauritania",
+    "lat": 20.9425,
+    "long": -17.038
+  },
+  {
+    "city": "Nouakchott",
+    "country": "Mauritania",
+    "lat": 18.0731,
+    "long": -15.958
+  },
+  {
+    "city": "Rosso",
+    "country": "Mauritania",
+    "lat": 16.5116,
+    "long": -15.805
+  },
+  {
+    "city": "Kaédi",
+    "country": "Mauritania",
+    "lat": 16.1506,
+    "long": -13.500
+  },
+  {
+    "city": "Kiffa",
+    "country": "Mauritania",
+    "lat": 16.6160,
+    "long": -11.404
+  },
+  {
+    "city": "Ayoun el Atrous",
+    "country": "Mauritania",
+    "lat": 16.6667,
+    "long": -9.6167  },
+  {
+    "city": "Selibaby",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Aleg",
+    "country": "Mauritania",
+    "lat": 17.0500,
+    "long": -13.916
+  },
+  {
+    "city": "Tidjikja",
+    "country": "Mauritania",
+    "lat": 18.5500,
+    "long": -11.416
+  },
+  {
+    "city": "Néma",
+    "country": "Mauritania",
+    "lat": 16.6167,
+    "long": -7.2500  },
+  {
+    "city": "Fderick",
+    "country": "Mauritania",
+    "lat": 22.6833,
+    "long": -12.716
+  },
+  {
+    "city": "Sélibabi",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Akjoujt",
+    "country": "Mauritania",
+    "lat": 19.7500,
+    "long": -14.383
+  },
+  {
+    "city": "Guelmim",
+    "country": "Morocco",
+    "lat": 28.9833,
+    "long": -10.066
+  },
+  {
+    "city": "Tan-Tan",
+    "country": "Morocco",
+    "lat": 28.4333,
+    "long": -11.100
+  },
+  {
+    "city": "Taroudant",
+    "country": "Morocco",
+    "lat": 30.4667,
+    "long": -8.8667  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azrou",
+    "country": "Morocco",
+    "lat": 33.4417,
+    "long": -5.2214  },
+  {
+    "city": "Khénifra",
+    "country": "Morocco",
+    "lat": 32.9394,
+    "long": -5.6675  },
+  {
+    "city": "Beni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Settat",
+    "country": "Morocco",
+    "lat": 33.0023,
+    "long": -7.6198  },
+  {
+    "city": "Khouribga",
+    "country": "Morocco",
+    "lat": 32.8833,
+    "long": -6.9167  },
+  {
+    "city": "Béni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Safi",
+    "country": "Morocco",
+    "lat": 32.2833,
+    "long": -9.2333  },
+  {
+    "city": "El Jadida",
+    "country": "Morocco",
+    "lat": 33.2333,
+    "long": -8.5000  },
+  {
+    "city": "Youssoufia",
+    "country": "Morocco",
+    "lat": 32.2500,
+    "long": -8.5333  },
+  {
+    "city": "Oujda",
+    "country": "Morocco",
+    "lat": 34.6867,
+    "long": -1.9114  },
+  {
+    "city": "Nador",
+    "country": "Morocco",
+    "lat": 35.1667,
+    "long": -2.9333  },
+  {
+    "city": "Al Hoceima",
+    "country": "Morocco",
+    "lat": 35.2500,
+    "long": -3.9333  },
+  {
+    "city": "Taza",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -4.0167  },
+  {
+    "city": "Taourirt",
+    "country": "Morocco",
+    "lat": 34.4000,
+    "long": -2.9000  },
+  {
+    "city": "Jerada",
+    "country": "Morocco",
+    "lat": 34.3167,
+    "long": -2.1667  },
+  {
+    "city": "Figuig",
+    "country": "Morocco",
+    "lat": 32.1167,
+    "long": -1.2333  },
+  {
+    "city": "Berkane",
+    "country": "Morocco",
+    "lat": 34.9167,
+    "long": -2.3167  },
+  {
+    "city": "Sidi Slimane",
+    "country": "Morocco",
+    "lat": 34.2667,
+    "long": -5.9333  },
+  {
+    "city": "Sidi Kacem",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -5.7000  },
+  {
+    "city": "Kénitra",
+    "country": "Morocco",
+    "lat": 34.2500,
+    "long": -6.5833  },
+  {
+    "city": "Meknès",
+    "country": "Morocco",
+    "lat": 33.8833,
+    "long": -5.5500  },
+  {
+    "city": "Fès",
+    "country": "Morocco",
+    "lat": 34.0433,
+    "long": -5.0033  },
+  {
+    "city": "Tanger",
+    "country": "Morocco",
+    "lat": 35.7767,
+    "long": -5.8039  },
+  {
+    "city": "Tétouan",
+    "country": "Morocco",
+    "lat": 35.5667,
+    "long": -5.3667  },
+  {
+    "city": "Larache",
+    "country": "Morocco",
+    "lat": 35.1833,
+    "long": -6.1500  },
+  {
+    "city": "Ksar El Kebir",
+    "country": "Morocco",
+    "lat": 35.0000,
+    "long": -5.9000  },
+  {
+    "city": "Asilah",
+    "country": "Morocco",
+    "lat": 35.4667,
+    "long": -6.0333  },
+  {
+    "city": "Chefchaouen",
+    "country": "Morocco",
+    "lat": 35.1714,
+    "long": -5.2697  },
+  {
+    "city": "Ouazzane",
+    "country": "Morocco",
+    "lat": 34.8000,
+    "long": -5.6000  },
+  {
+    "city": "Sefrou",
+    "country": "Morocco",
+    "lat": 33.8303,
+    "long": -4.8353  },
+  {
+    "city": "Boulemane",
+    "country": "Morocco",
+    "lat": 33.3667,
+    "long": -4.7333  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azilal",
+    "country": "Morocco",
+    "lat": 31.9667,
+    "long": -6.5667  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Tinghir",
+    "country": "Morocco",
+    "lat": 31.5167,
+    "long": -5.5333  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Zagora",
+    "country": "Morocco",
+    "lat": 30.3167,
+    "long": -5.8333  },
+  {
+    "city": "Tata",
+    "country": "Morocco",
+    "lat": 29.7500,
+    "long": -7.9667  },
+  {
+    "city": "Goulmima",
+    "country": "Morocco",
+    "lat": 31.6833,
+    "long": -4.9500  },
+  {
+    "city": "Alnif",
+    "country": "Morocco",
+    "lat": 31.1167,
+    "long": -5.1667  },
+  {
+    "city": "Assa",
+    "country": "Morocco",
+    "lat": 28.6000,
+    "long": -9.4333  },
+  {
+    "city": "Smara",
+    "country": "Western Sahara",
+    "lat": 26.7384,
+    "long": -11.671
+  },
+  {
+    "city": "Laayoune",
+    "country": "Western Sahara",
+    "lat": 27.1536,
+    "long": -13.203
+  },
+  {
+    "city": "Dakhla",
+    "country": "Western Sahara",
+    "lat": 23.6848,
+    "long": -15.958
+  },
+  {
+    "city": "Boujdour",
+    "country": "Western Sahara",
+    "lat": 26.1306,
+    "long": -14.485
+  },
+  {
+    "city": "Awsard",
+    "country": "Western Sahara",
+    "lat": 22.7456,
+    "long": -14.390
+  },
+  {
+    "city": "Tifariti",
+    "country": "Western Sahara",
+    "lat": 26.0928,
+    "long": -10.608
+  },
+  {
+    "city": "Bir Lehlou",
+    "country": "Western Sahara",
+    "lat": 26.1186,
+    "long": -9.7356  },
+  {
+    "city": "Zouerate",
+    "country": "Mauritania",
+    "lat": 22.7354,
+    "long": -12.473
+  },
+  {
+    "city": "Atar",
+    "country": "Mauritania",
+    "lat": 20.5091,
+    "long": -13.044
+  },
+  {
+    "city": "Nouadhibou",
+    "country": "Mauritania",
+    "lat": 20.9425,
+    "long": -17.038
+  },
+  {
+    "city": "Nouakchott",
+    "country": "Mauritania",
+    "lat": 18.0731,
+    "long": -15.958
+  },
+  {
+    "city": "Rosso",
+    "country": "Mauritania",
+    "lat": 16.5116,
+    "long": -15.805
+  },
+  {
+    "city": "Kaédi",
+    "country": "Mauritania",
+    "lat": 16.1506,
+    "long": -13.500
+  },
+  {
+    "city": "Kiffa",
+    "country": "Mauritania",
+    "lat": 16.6160,
+    "long": -11.404
+  },
+  {
+    "city": "Ayoun el Atrous",
+    "country": "Mauritania",
+    "lat": 16.6667,
+    "long": -9.6167  },
+  {
+    "city": "Selibaby",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Aleg",
+    "country": "Mauritania",
+    "lat": 17.0500,
+    "long": -13.916
+  },
+  {
+    "city": "Tidjikja",
+    "country": "Mauritania",
+    "lat": 18.5500,
+    "long": -11.416
+  },
+  {
+    "city": "Néma",
+    "country": "Mauritania",
+    "lat": 16.6167,
+    "long": -7.2500  },
+  {
+    "city": "Fderick",
+    "country": "Mauritania",
+    "lat": 22.6833,
+    "long": -12.716
+  },
+  {
+    "city": "Sélibabi",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Akjoujt",
+    "country": "Mauritania",
+    "lat": 19.7500,
+    "long": -14.383
+  },
+  {
+    "city": "Guelmim",
+    "country": "Morocco",
+    "lat": 28.9833,
+    "long": -10.066
+  },
+  {
+    "city": "Tan-Tan",
+    "country": "Morocco",
+    "lat": 28.4333,
+    "long": -11.100
+  },
+  {
+    "city": "Taroudant",
+    "country": "Morocco",
+    "lat": 30.4667,
+    "long": -8.8667  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azrou",
+    "country": "Morocco",
+    "lat": 33.4417,
+    "long": -5.2214  },
+  {
+    "city": "Khénifra",
+    "country": "Morocco",
+    "lat": 32.9394,
+    "long": -5.6675  },
+  {
+    "city": "Beni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Settat",
+    "country": "Morocco",
+    "lat": 33.0023,
+    "long": -7.6198  },
+  {
+    "city": "Khouribga",
+    "country": "Morocco",
+    "lat": 32.8833,
+    "long": -6.9167  },
+  {
+    "city": "Béni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Safi",
+    "country": "Morocco",
+    "lat": 32.2833,
+    "long": -9.2333  },
+  {
+    "city": "El Jadida",
+    "country": "Morocco",
+    "lat": 33.2333,
+    "long": -8.5000  },
+  {
+    "city": "Youssoufia",
+    "country": "Morocco",
+    "lat": 32.2500,
+    "long": -8.5333  },
+  {
+    "city": "Oujda",
+    "country": "Morocco",
+    "lat": 34.6867,
+    "long": -1.9114  },
+  {
+    "city": "Nador",
+    "country": "Morocco",
+    "lat": 35.1667,
+    "long": -2.9333  },
+  {
+    "city": "Al Hoceima",
+    "country": "Morocco",
+    "lat": 35.2500,
+    "long": -3.9333  },
+  {
+    "city": "Taza",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -4.0167  },
+  {
+    "city": "Taourirt",
+    "country": "Morocco",
+    "lat": 34.4000,
+    "long": -2.9000  },
+  {
+    "city": "Jerada",
+    "country": "Morocco",
+    "lat": 34.3167,
+    "long": -2.1667  },
+  {
+    "city": "Figuig",
+    "country": "Morocco",
+    "lat": 32.1167,
+    "long": -1.2333  },
+  {
+    "city": "Berkane",
+    "country": "Morocco",
+    "lat": 34.9167,
+    "long": -2.3167  },
+  {
+    "city": "Sidi Slimane",
+    "country": "Morocco",
+    "lat": 34.2667,
+    "long": -5.9333  },
+  {
+    "city": "Sidi Kacem",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -5.7000  },
+  {
+    "city": "Kénitra",
+    "country": "Morocco",
+    "lat": 34.2500,
+    "long": -6.5833  },
+  {
+    "city": "Meknès",
+    "country": "Morocco",
+    "lat": 33.8833,
+    "long": -5.5500  },
+  {
+    "city": "Fès",
+    "country": "Morocco",
+    "lat": 34.0433,
+    "long": -5.0033  },
+  {
+    "city": "Tanger",
+    "country": "Morocco",
+    "lat": 35.7767,
+    "long": -5.8039  },
+  {
+    "city": "Tétouan",
+    "country": "Morocco",
+    "lat": 35.5667,
+    "long": -5.3667  },
+  {
+    "city": "Larache",
+    "country": "Morocco",
+    "lat": 35.1833,
+    "long": -6.1500  },
+  {
+    "city": "Ksar El Kebir",
+    "country": "Morocco",
+    "lat": 35.0000,
+    "long": -5.9000  },
+  {
+    "city": "Asilah",
+    "country": "Morocco",
+    "lat": 35.4667,
+    "long": -6.0333  },
+  {
+    "city": "Chefchaouen",
+    "country": "Morocco",
+    "lat": 35.1714,
+    "long": -5.2697  },
+  {
+    "city": "Ouazzane",
+    "country": "Morocco",
+    "lat": 34.8000,
+    "long": -5.6000  },
+  {
+    "city": "Sefrou",
+    "country": "Morocco",
+    "lat": 33.8303,
+    "long": -4.8353  },
+  {
+    "city": "Boulemane",
+    "country": "Morocco",
+    "lat": 33.3667,
+    "long": -4.7333  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azilal",
+    "country": "Morocco",
+    "lat": 31.9667,
+    "long": -6.5667  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Tinghir",
+    "country": "Morocco",
+    "lat": 31.5167,
+    "long": -5.5333  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Zagora",
+    "country": "Morocco",
+    "lat": 30.3167,
+    "long": -5.8333  },
+  {
+    "city": "Tata",
+    "country": "Morocco",
+    "lat": 29.7500,
+    "long": -7.9667  },
+  {
+    "city": "Goulmima",
+    "country": "Morocco",
+    "lat": 31.6833,
+    "long": -4.9500  },
+  {
+    "city": "Alnif",
+    "country": "Morocco",
+    "lat": 31.1167,
+    "long": -5.1667  },
+  {
+    "city": "Assa",
+    "country": "Morocco",
+    "lat": 28.6000,
+    "long": -9.4333  },
+  {
+    "city": "Smara",
+    "country": "Western Sahara",
+    "lat": 26.7384,
+    "long": -11.671
+  },
+  {
+    "city": "Laayoune",
+    "country": "Western Sahara",
+    "lat": 27.1536,
+    "long": -13.203
+  },
+  {
+    "city": "Dakhla",
+    "country": "Western Sahara",
+    "lat": 23.6848,
+    "long": -15.958
+  },
+  {
+    "city": "Boujdour",
+    "country": "Western Sahara",
+    "lat": 26.1306,
+    "long": -14.485
+  },
+  {
+    "city": "Awsard",
+    "country": "Western Sahara",
+    "lat": 22.7456,
+    "long": -14.390
+  },
+  {
+    "city": "Tifariti",
+    "country": "Western Sahara",
+    "lat": 26.0928,
+    "long": -10.608
+  },
+  {
+    "city": "Bir Lehlou",
+    "country": "Western Sahara",
+    "lat": 26.1186,
+    "long": -9.7356  },
+  {
+    "city": "Zouerate",
+    "country": "Mauritania",
+    "lat": 22.7354,
+    "long": -12.473
+  },
+  {
+    "city": "Atar",
+    "country": "Mauritania",
+    "lat": 20.5091,
+    "long": -13.044
+  },
+  {
+    "city": "Nouadhibou",
+    "country": "Mauritania",
+    "lat": 20.9425,
+    "long": -17.038
+  },
+  {
+    "city": "Nouakchott",
+    "country": "Mauritania",
+    "lat": 18.0731,
+    "long": -15.958
+  },
+  {
+    "city": "Rosso",
+    "country": "Mauritania",
+    "lat": 16.5116,
+    "long": -15.805
+  },
+  {
+    "city": "Kaédi",
+    "country": "Mauritania",
+    "lat": 16.1506,
+    "long": -13.500
+  },
+  {
+    "city": "Kiffa",
+    "country": "Mauritania",
+    "lat": 16.6160,
+    "long": -11.404
+  },
+  {
+    "city": "Ayoun el Atrous",
+    "country": "Mauritania",
+    "lat": 16.6667,
+    "long": -9.6167  },
+  {
+    "city": "Selibaby",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Aleg",
+    "country": "Mauritania",
+    "lat": 17.0500,
+    "long": -13.916
+  },
+  {
+    "city": "Tidjikja",
+    "country": "Mauritania",
+    "lat": 18.5500,
+    "long": -11.416
+  },
+  {
+    "city": "Néma",
+    "country": "Mauritania",
+    "lat": 16.6167,
+    "long": -7.2500  },
+  {
+    "city": "Fderick",
+    "country": "Mauritania",
+    "lat": 22.6833,
+    "long": -12.716
+  },
+  {
+    "city": "Sélibabi",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Akjoujt",
+    "country": "Mauritania",
+    "lat": 19.7500,
+    "long": -14.383
+  },
+  {
+    "city": "Guelmim",
+    "country": "Morocco",
+    "lat": 28.9833,
+    "long": -10.066
+  },
+  {
+    "city": "Tan-Tan",
+    "country": "Morocco",
+    "lat": 28.4333,
+    "long": -11.100
+  },
+  {
+    "city": "Taroudant",
+    "country": "Morocco",
+    "lat": 30.4667,
+    "long": -8.8667  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azrou",
+    "country": "Morocco",
+    "lat": 33.4417,
+    "long": -5.2214  },
+  {
+    "city": "Khénifra",
+    "country": "Morocco",
+    "lat": 32.9394,
+    "long": -5.6675  },
+  {
+    "city": "Beni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Settat",
+    "country": "Morocco",
+    "lat": 33.0023,
+    "long": -7.6198  },
+  {
+    "city": "Khouribga",
+    "country": "Morocco",
+    "lat": 32.8833,
+    "long": -6.9167  },
+  {
+    "city": "Béni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Safi",
+    "country": "Morocco",
+    "lat": 32.2833,
+    "long": -9.2333  },
+  {
+    "city": "El Jadida",
+    "country": "Morocco",
+    "lat": 33.2333,
+    "long": -8.5000  },
+  {
+    "city": "Youssoufia",
+    "country": "Morocco",
+    "lat": 32.2500,
+    "long": -8.5333  },
+  {
+    "city": "Oujda",
+    "country": "Morocco",
+    "lat": 34.6867,
+    "long": -1.9114  },
+  {
+    "city": "Nador",
+    "country": "Morocco",
+    "lat": 35.1667,
+    "long": -2.9333  },
+  {
+    "city": "Al Hoceima",
+    "country": "Morocco",
+    "lat": 35.2500,
+    "long": -3.9333  },
+  {
+    "city": "Taza",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -4.0167  },
+  {
+    "city": "Taourirt",
+    "country": "Morocco",
+    "lat": 34.4000,
+    "long": -2.9000  },
+  {
+    "city": "Jerada",
+    "country": "Morocco",
+    "lat": 34.3167,
+    "long": -2.1667  },
+  {
+    "city": "Figuig",
+    "country": "Morocco",
+    "lat": 32.1167,
+    "long": -1.2333  },
+  {
+    "city": "Berkane",
+    "country": "Morocco",
+    "lat": 34.9167,
+    "long": -2.3167  },
+  {
+    "city": "Sidi Slimane",
+    "country": "Morocco",
+    "lat": 34.2667,
+    "long": -5.9333  },
+  {
+    "city": "Sidi Kacem",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -5.7000  },
+  {
+    "city": "Kénitra",
+    "country": "Morocco",
+    "lat": 34.2500,
+    "long": -6.5833  },
+  {
+    "city": "Meknès",
+    "country": "Morocco",
+    "lat": 33.8833,
+    "long": -5.5500  },
+  {
+    "city": "Fès",
+    "country": "Morocco",
+    "lat": 34.0433,
+    "long": -5.0033  },
+  {
+    "city": "Tanger",
+    "country": "Morocco",
+    "lat": 35.7767,
+    "long": -5.8039  },
+  {
+    "city": "Tétouan",
+    "country": "Morocco",
+    "lat": 35.5667,
+    "long": -5.3667  },
+  {
+    "city": "Larache",
+    "country": "Morocco",
+    "lat": 35.1833,
+    "long": -6.1500  },
+  {
+    "city": "Ksar El Kebir",
+    "country": "Morocco",
+    "lat": 35.0000,
+    "long": -5.9000  },
+  {
+    "city": "Asilah",
+    "country": "Morocco",
+    "lat": 35.4667,
+    "long": -6.0333  },
+  {
+    "city": "Chefchaouen",
+    "country": "Morocco",
+    "lat": 35.1714,
+    "long": -5.2697  },
+  {
+    "city": "Ouazzane",
+    "country": "Morocco",
+    "lat": 34.8000,
+    "long": -5.6000  },
+  {
+    "city": "Sefrou",
+    "country": "Morocco",
+    "lat": 33.8303,
+    "long": -4.8353  },
+  {
+    "city": "Boulemane",
+    "country": "Morocco",
+    "lat": 33.3667,
+    "long": -4.7333  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azilal",
+    "country": "Morocco",
+    "lat": 31.9667,
+    "long": -6.5667  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Tinghir",
+    "country": "Morocco",
+    "lat": 31.5167,
+    "long": -5.5333  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Zagora",
+    "country": "Morocco",
+    "lat": 30.3167,
+    "long": -5.8333  },
+  {
+    "city": "Tata",
+    "country": "Morocco",
+    "lat": 29.7500,
+    "long": -7.9667  },
+  {
+    "city": "Goulmima",
+    "country": "Morocco",
+    "lat": 31.6833,
+    "long": -4.9500  },
+  {
+    "city": "Alnif",
+    "country": "Morocco",
+    "lat": 31.1167,
+    "long": -5.1667  },
+  {
+    "city": "Assa",
+    "country": "Morocco",
+    "lat": 28.6000,
+    "long": -9.4333  },
+  {
+    "city": "Smara",
+    "country": "Western Sahara",
+    "lat": 26.7384,
+    "long": -11.671
+  },
+  {
+    "city": "Laayoune",
+    "country": "Western Sahara",
+    "lat": 27.1536,
+    "long": -13.203
+  },
+  {
+    "city": "Dakhla",
+    "country": "Western Sahara",
+    "lat": 23.6848,
+    "long": -15.958
+  },
+  {
+    "city": "Boujdour",
+    "country": "Western Sahara",
+    "lat": 26.1306,
+    "long": -14.485
+  },
+  {
+    "city": "Awsard",
+    "country": "Western Sahara",
+    "lat": 22.7456,
+    "long": -14.390
+  },
+  {
+    "city": "Tifariti",
+    "country": "Western Sahara",
+    "lat": 26.0928,
+    "long": -10.608
+  },
+  {
+    "city": "Bir Lehlou",
+    "country": "Western Sahara",
+    "lat": 26.1186,
+    "long": -9.7356  },
+  {
+    "city": "Zouerate",
+    "country": "Mauritania",
+    "lat": 22.7354,
+    "long": -12.473
+  },
+  {
+    "city": "Atar",
+    "country": "Mauritania",
+    "lat": 20.5091,
+    "long": -13.044
+  },
+  {
+    "city": "Nouadhibou",
+    "country": "Mauritania",
+    "lat": 20.9425,
+    "long": -17.038
+  },
+  {
+    "city": "Nouakchott",
+    "country": "Mauritania",
+    "lat": 18.0731,
+    "long": -15.958
+  },
+  {
+    "city": "Rosso",
+    "country": "Mauritania",
+    "lat": 16.5116,
+    "long": -15.805
+  },
+  {
+    "city": "Kaédi",
+    "country": "Mauritania",
+    "lat": 16.1506,
+    "long": -13.500
+  },
+  {
+    "city": "Kiffa",
+    "country": "Mauritania",
+    "lat": 16.6160,
+    "long": -11.404
+  },
+  {
+    "city": "Ayoun el Atrous",
+    "country": "Mauritania",
+    "lat": 16.6667,
+    "long": -9.6167  },
+  {
+    "city": "Selibaby",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Aleg",
+    "country": "Mauritania",
+    "lat": 17.0500,
+    "long": -13.916
+  },
+  {
+    "city": "Tidjikja",
+    "country": "Mauritania",
+    "lat": 18.5500,
+    "long": -11.416
+  },
+  {
+    "city": "Néma",
+    "country": "Mauritania",
+    "lat": 16.6167,
+    "long": -7.2500  },
+  {
+    "city": "Fderick",
+    "country": "Mauritania",
+    "lat": 22.6833,
+    "long": -12.716
+  },
+  {
+    "city": "Sélibabi",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Akjoujt",
+    "country": "Mauritania",
+    "lat": 19.7500,
+    "long": -14.383
+  },
+  {
+    "city": "Guelmim",
+    "country": "Morocco",
+    "lat": 28.9833,
+    "long": -10.066
+  },
+  {
+    "city": "Tan-Tan",
+    "country": "Morocco",
+    "lat": 28.4333,
+    "long": -11.100
+  },
+  {
+    "city": "Taroudant",
+    "country": "Morocco",
+    "lat": 30.4667,
+    "long": -8.8667  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azrou",
+    "country": "Morocco",
+    "lat": 33.4417,
+    "long": -5.2214  },
+  {
+    "city": "Khénifra",
+    "country": "Morocco",
+    "lat": 32.9394,
+    "long": -5.6675  },
+  {
+    "city": "Beni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Settat",
+    "country": "Morocco",
+    "lat": 33.0023,
+    "long": -7.6198  },
+  {
+    "city": "Khouribga",
+    "country": "Morocco",
+    "lat": 32.8833,
+    "long": -6.9167  },
+  {
+    "city": "Béni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Safi",
+    "country": "Morocco",
+    "lat": 32.2833,
+    "long": -9.2333  },
+  {
+    "city": "El Jadida",
+    "country": "Morocco",
+    "lat": 33.2333,
+    "long": -8.5000  },
+  {
+    "city": "Youssoufia",
+    "country": "Morocco",
+    "lat": 32.2500,
+    "long": -8.5333  },
+  {
+    "city": "Oujda",
+    "country": "Morocco",
+    "lat": 34.6867,
+    "long": -1.9114  },
+  {
+    "city": "Nador",
+    "country": "Morocco",
+    "lat": 35.1667,
+    "long": -2.9333  },
+  {
+    "city": "Al Hoceima",
+    "country": "Morocco",
+    "lat": 35.2500,
+    "long": -3.9333  },
+  {
+    "city": "Taza",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -4.0167  },
+  {
+    "city": "Taourirt",
+    "country": "Morocco",
+    "lat": 34.4000,
+    "long": -2.9000  },
+  {
+    "city": "Jerada",
+    "country": "Morocco",
+    "lat": 34.3167,
+    "long": -2.1667  },
+  {
+    "city": "Figuig",
+    "country": "Morocco",
+    "lat": 32.1167,
+    "long": -1.2333  },
+  {
+    "city": "Berkane",
+    "country": "Morocco",
+    "lat": 34.9167,
+    "long": -2.3167  },
+  {
+    "city": "Sidi Slimane",
+    "country": "Morocco",
+    "lat": 34.2667,
+    "long": -5.9333  },
+  {
+    "city": "Sidi Kacem",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -5.7000  },
+  {
+    "city": "Kénitra",
+    "country": "Morocco",
+    "lat": 34.2500,
+    "long": -6.5833  },
+  {
+    "city": "Meknès",
+    "country": "Morocco",
+    "lat": 33.8833,
+    "long": -5.5500  },
+  {
+    "city": "Fès",
+    "country": "Morocco",
+    "lat": 34.0433,
+    "long": -5.0033  },
+  {
+    "city": "Tanger",
+    "country": "Morocco",
+    "lat": 35.7767,
+    "long": -5.8039  },
+  {
+    "city": "Tétouan",
+    "country": "Morocco",
+    "lat": 35.5667,
+    "long": -5.3667  },
+  {
+    "city": "Larache",
+    "country": "Morocco",
+    "lat": 35.1833,
+    "long": -6.1500  },
+  {
+    "city": "Ksar El Kebir",
+    "country": "Morocco",
+    "lat": 35.0000,
+    "long": -5.9000  },
+  {
+    "city": "Asilah",
+    "country": "Morocco",
+    "lat": 35.4667,
+    "long": -6.0333  },
+  {
+    "city": "Chefchaouen",
+    "country": "Morocco",
+    "lat": 35.1714,
+    "long": -5.2697  },
+  {
+    "city": "Ouazzane",
+    "country": "Morocco",
+    "lat": 34.8000,
+    "long": -5.6000  },
+  {
+    "city": "Sefrou",
+    "country": "Morocco",
+    "lat": 33.8303,
+    "long": -4.8353  },
+  {
+    "city": "Boulemane",
+    "country": "Morocco",
+    "lat": 33.3667,
+    "long": -4.7333  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azilal",
+    "country": "Morocco",
+    "lat": 31.9667,
+    "long": -6.5667  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Tinghir",
+    "country": "Morocco",
+    "lat": 31.5167,
+    "long": -5.5333  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Zagora",
+    "country": "Morocco",
+    "lat": 30.3167,
+    "long": -5.8333  },
+  {
+    "city": "Tata",
+    "country": "Morocco",
+    "lat": 29.7500,
+    "long": -7.9667  },
+  {
+    "city": "Goulmima",
+    "country": "Morocco",
+    "lat": 31.6833,
+    "long": -4.9500  },
+  {
+    "city": "Alnif",
+    "country": "Morocco",
+    "lat": 31.1167,
+    "long": -5.1667  },
+  {
+    "city": "Assa",
+    "country": "Morocco",
+    "lat": 28.6000,
+    "long": -9.4333  },
+  {
+    "city": "Smara",
+    "country": "Western Sahara",
+    "lat": 26.7384,
+    "long": -11.671
+  },
+  {
+    "city": "Laayoune",
+    "country": "Western Sahara",
+    "lat": 27.1536,
+    "long": -13.203
+  },
+  {
+    "city": "Dakhla",
+    "country": "Western Sahara",
+    "lat": 23.6848,
+    "long": -15.958
+  },
+  {
+    "city": "Boujdour",
+    "country": "Western Sahara",
+    "lat": 26.1306,
+    "long": -14.485
+  },
+  {
+    "city": "Awsard",
+    "country": "Western Sahara",
+    "lat": 22.7456,
+    "long": -14.390
+  },
+  {
+    "city": "Tifariti",
+    "country": "Western Sahara",
+    "lat": 26.0928,
+    "long": -10.608
+  },
+  {
+    "city": "Bir Lehlou",
+    "country": "Western Sahara",
+    "lat": 26.1186,
+    "long": -9.7356  },
+  {
+    "city": "Zouerate",
+    "country": "Mauritania",
+    "lat": 22.7354,
+    "long": -12.473
+  },
+  {
+    "city": "Atar",
+    "country": "Mauritania",
+    "lat": 20.5091,
+    "long": -13.044
+  },
+  {
+    "city": "Nouadhibou",
+    "country": "Mauritania",
+    "lat": 20.9425,
+    "long": -17.038
+  },
+  {
+    "city": "Nouakchott",
+    "country": "Mauritania",
+    "lat": 18.0731,
+    "long": -15.958
+  },
+  {
+    "city": "Rosso",
+    "country": "Mauritania",
+    "lat": 16.5116,
+    "long": -15.805
+  },
+  {
+    "city": "Kaédi",
+    "country": "Mauritania",
+    "lat": 16.1506,
+    "long": -13.500
+  },
+  {
+    "city": "Kiffa",
+    "country": "Mauritania",
+    "lat": 16.6160,
+    "long": -11.404
+  },
+  {
+    "city": "Ayoun el Atrous",
+    "country": "Mauritania",
+    "lat": 16.6667,
+    "long": -9.6167  },
+  {
+    "city": "Selibaby",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Aleg",
+    "country": "Mauritania",
+    "lat": 17.0500,
+    "long": -13.916
+  },
+  {
+    "city": "Tidjikja",
+    "country": "Mauritania",
+    "lat": 18.5500,
+    "long": -11.416
+  },
+  {
+    "city": "Néma",
+    "country": "Mauritania",
+    "lat": 16.6167,
+    "long": -7.2500  },
+  {
+    "city": "Fderick",
+    "country": "Mauritania",
+    "lat": 22.6833,
+    "long": -12.716
+  },
+  {
+    "city": "Sélibabi",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Akjoujt",
+    "country": "Mauritania",
+    "lat": 19.7500,
+    "long": -14.383
+  },
+  {
+    "city": "Guelmim",
+    "country": "Morocco",
+    "lat": 28.9833,
+    "long": -10.066
+  },
+  {
+    "city": "Tan-Tan",
+    "country": "Morocco",
+    "lat": 28.4333,
+    "long": -11.100
+  },
+  {
+    "city": "Taroudant",
+    "country": "Morocco",
+    "lat": 30.4667,
+    "long": -8.8667  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azrou",
+    "country": "Morocco",
+    "lat": 33.4417,
+    "long": -5.2214  },
+  {
+    "city": "Khénifra",
+    "country": "Morocco",
+    "lat": 32.9394,
+    "long": -5.6675  },
+  {
+    "city": "Beni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Settat",
+    "country": "Morocco",
+    "lat": 33.0023,
+    "long": -7.6198  },
+  {
+    "city": "Khouribga",
+    "country": "Morocco",
+    "lat": 32.8833,
+    "long": -6.9167  },
+  {
+    "city": "Béni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Safi",
+    "country": "Morocco",
+    "lat": 32.2833,
+    "long": -9.2333  },
+  {
+    "city": "El Jadida",
+    "country": "Morocco",
+    "lat": 33.2333,
+    "long": -8.5000  },
+  {
+    "city": "Youssoufia",
+    "country": "Morocco",
+    "lat": 32.2500,
+    "long": -8.5333  },
+  {
+    "city": "Oujda",
+    "country": "Morocco",
+    "lat": 34.6867,
+    "long": -1.9114  },
+  {
+    "city": "Nador",
+    "country": "Morocco",
+    "lat": 35.1667,
+    "long": -2.9333  },
+  {
+    "city": "Al Hoceima",
+    "country": "Morocco",
+    "lat": 35.2500,
+    "long": -3.9333  },
+  {
+    "city": "Taza",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -4.0167  },
+  {
+    "city": "Taourirt",
+    "country": "Morocco",
+    "lat": 34.4000,
+    "long": -2.9000  },
+  {
+    "city": "Jerada",
+    "country": "Morocco",
+    "lat": 34.3167,
+    "long": -2.1667  },
+  {
+    "city": "Figuig",
+    "country": "Morocco",
+    "lat": 32.1167,
+    "long": -1.2333  },
+  {
+    "city": "Berkane",
+    "country": "Morocco",
+    "lat": 34.9167,
+    "long": -2.3167  },
+  {
+    "city": "Sidi Slimane",
+    "country": "Morocco",
+    "lat": 34.2667,
+    "long": -5.9333  },
+  {
+    "city": "Sidi Kacem",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -5.7000  },
+  {
+    "city": "Kénitra",
+    "country": "Morocco",
+    "lat": 34.2500,
+    "long": -6.5833  },
+  {
+    "city": "Meknès",
+    "country": "Morocco",
+    "lat": 33.8833,
+    "long": -5.5500  },
+  {
+    "city": "Fès",
+    "country": "Morocco",
+    "lat": 34.0433,
+    "long": -5.0033  },
+  {
+    "city": "Tanger",
+    "country": "Morocco",
+    "lat": 35.7767,
+    "long": -5.8039  },
+  {
+    "city": "Tétouan",
+    "country": "Morocco",
+    "lat": 35.5667,
+    "long": -5.3667  },
+  {
+    "city": "Larache",
+    "country": "Morocco",
+    "lat": 35.1833,
+    "long": -6.1500  },
+  {
+    "city": "Ksar El Kebir",
+    "country": "Morocco",
+    "lat": 35.0000,
+    "long": -5.9000  },
+  {
+    "city": "Asilah",
+    "country": "Morocco",
+    "lat": 35.4667,
+    "long": -6.0333  },
+  {
+    "city": "Chefchaouen",
+    "country": "Morocco",
+    "lat": 35.1714,
+    "long": -5.2697  },
+  {
+    "city": "Ouazzane",
+    "country": "Morocco",
+    "lat": 34.8000,
+    "long": -5.6000  },
+  {
+    "city": "Sefrou",
+    "country": "Morocco",
+    "lat": 33.8303,
+    "long": -4.8353  },
+  {
+    "city": "Boulemane",
+    "country": "Morocco",
+    "lat": 33.3667,
+    "long": -4.7333  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azilal",
+    "country": "Morocco",
+    "lat": 31.9667,
+    "long": -6.5667  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Tinghir",
+    "country": "Morocco",
+    "lat": 31.5167,
+    "long": -5.5333  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Zagora",
+    "country": "Morocco",
+    "lat": 30.3167,
+    "long": -5.8333  },
+  {
+    "city": "Tata",
+    "country": "Morocco",
+    "lat": 29.7500,
+    "long": -7.9667  },
+  {
+    "city": "Goulmima",
+    "country": "Morocco",
+    "lat": 31.6833,
+    "long": -4.9500  },
+  {
+    "city": "Alnif",
+    "country": "Morocco",
+    "lat": 31.1167,
+    "long": -5.1667  },
+  {
+    "city": "Assa",
+    "country": "Morocco",
+    "lat": 28.6000,
+    "long": -9.4333  },
+  {
+    "city": "Smara",
+    "country": "Western Sahara",
+    "lat": 26.7384,
+    "long": -11.671
+  },
+  {
+    "city": "Laayoune",
+    "country": "Western Sahara",
+    "lat": 27.1536,
+    "long": -13.203
+  },
+  {
+    "city": "Dakhla",
+    "country": "Western Sahara",
+    "lat": 23.6848,
+    "long": -15.958
+  },
+  {
+    "city": "Boujdour",
+    "country": "Western Sahara",
+    "lat": 26.1306,
+    "long": -14.485
+  },
+  {
+    "city": "Awsard",
+    "country": "Western Sahara",
+    "lat": 22.7456,
+    "long": -14.390
+  },
+  {
+    "city": "Tifariti",
+    "country": "Western Sahara",
+    "lat": 26.0928,
+    "long": -10.608
+  },
+  {
+    "city": "Bir Lehlou",
+    "country": "Western Sahara",
+    "lat": 26.1186,
+    "long": -9.7356  },
+  {
+    "city": "Zouerate",
+    "country": "Mauritania",
+    "lat": 22.7354,
+    "long": -12.473
+  },
+  {
+    "city": "Atar",
+    "country": "Mauritania",
+    "lat": 20.5091,
+    "long": -13.044
+  },
+  {
+    "city": "Nouadhibou",
+    "country": "Mauritania",
+    "lat": 20.9425,
+    "long": -17.038
+  },
+  {
+    "city": "Nouakchott",
+    "country": "Mauritania",
+    "lat": 18.0731,
+    "long": -15.958
+  },
+  {
+    "city": "Rosso",
+    "country": "Mauritania",
+    "lat": 16.5116,
+    "long": -15.805
+  },
+  {
+    "city": "Kaédi",
+    "country": "Mauritania",
+    "lat": 16.1506,
+    "long": -13.500
+  },
+  {
+    "city": "Kiffa",
+    "country": "Mauritania",
+    "lat": 16.6160,
+    "long": -11.404
+  },
+  {
+    "city": "Ayoun el Atrous",
+    "country": "Mauritania",
+    "lat": 16.6667,
+    "long": -9.6167  },
+  {
+    "city": "Selibaby",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Aleg",
+    "country": "Mauritania",
+    "lat": 17.0500,
+    "long": -13.916
+  },
+  {
+    "city": "Tidjikja",
+    "country": "Mauritania",
+    "lat": 18.5500,
+    "long": -11.416
+  },
+  {
+    "city": "Néma",
+    "country": "Mauritania",
+    "lat": 16.6167,
+    "long": -7.2500  },
+  {
+    "city": "Fderick",
+    "country": "Mauritania",
+    "lat": 22.6833,
+    "long": -12.716
+  },
+  {
+    "city": "Sélibabi",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Akjoujt",
+    "country": "Mauritania",
+    "lat": 19.7500,
+    "long": -14.383
+  },
+  {
+    "city": "Guelmim",
+    "country": "Morocco",
+    "lat": 28.9833,
+    "long": -10.066
+  },
+  {
+    "city": "Tan-Tan",
+    "country": "Morocco",
+    "lat": 28.4333,
+    "long": -11.100
+  },
+  {
+    "city": "Taroudant",
+    "country": "Morocco",
+    "lat": 30.4667,
+    "long": -8.8667  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azrou",
+    "country": "Morocco",
+    "lat": 33.4417,
+    "long": -5.2214  },
+  {
+    "city": "Khénifra",
+    "country": "Morocco",
+    "lat": 32.9394,
+    "long": -5.6675  },
+  {
+    "city": "Beni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Settat",
+    "country": "Morocco",
+    "lat": 33.0023,
+    "long": -7.6198  },
+  {
+    "city": "Khouribga",
+    "country": "Morocco",
+    "lat": 32.8833,
+    "long": -6.9167  },
+  {
+    "city": "Béni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Safi",
+    "country": "Morocco",
+    "lat": 32.2833,
+    "long": -9.2333  },
+  {
+    "city": "El Jadida",
+    "country": "Morocco",
+    "lat": 33.2333,
+    "long": -8.5000  },
+  {
+    "city": "Youssoufia",
+    "country": "Morocco",
+    "lat": 32.2500,
+    "long": -8.5333  },
+  {
+    "city": "Oujda",
+    "country": "Morocco",
+    "lat": 34.6867,
+    "long": -1.9114  },
+  {
+    "city": "Nador",
+    "country": "Morocco",
+    "lat": 35.1667,
+    "long": -2.9333  },
+  {
+    "city": "Al Hoceima",
+    "country": "Morocco",
+    "lat": 35.2500,
+    "long": -3.9333  },
+  {
+    "city": "Taza",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -4.0167  },
+  {
+    "city": "Taourirt",
+    "country": "Morocco",
+    "lat": 34.4000,
+    "long": -2.9000  },
+  {
+    "city": "Jerada",
+    "country": "Morocco",
+    "lat": 34.3167,
+    "long": -2.1667  },
+  {
+    "city": "Figuig",
+    "country": "Morocco",
+    "lat": 32.1167,
+    "long": -1.2333  },
+  {
+    "city": "Berkane",
+    "country": "Morocco",
+    "lat": 34.9167,
+    "long": -2.3167  },
+  {
+    "city": "Sidi Slimane",
+    "country": "Morocco",
+    "lat": 34.2667,
+    "long": -5.9333  },
+  {
+    "city": "Sidi Kacem",
+    "country": "Morocco",
+    "lat": 34.2167,
+    "long": -5.7000  },
+  {
+    "city": "Kénitra",
+    "country": "Morocco",
+    "lat": 34.2500,
+    "long": -6.5833  },
+  {
+    "city": "Meknès",
+    "country": "Morocco",
+    "lat": 33.8833,
+    "long": -5.5500  },
+  {
+    "city": "Fès",
+    "country": "Morocco",
+    "lat": 34.0433,
+    "long": -5.0033  },
+  {
+    "city": "Tanger",
+    "country": "Morocco",
+    "lat": 35.7767,
+    "long": -5.8039  },
+  {
+    "city": "Tétouan",
+    "country": "Morocco",
+    "lat": 35.5667,
+    "long": -5.3667  },
+  {
+    "city": "Larache",
+    "country": "Morocco",
+    "lat": 35.1833,
+    "long": -6.1500  },
+  {
+    "city": "Ksar El Kebir",
+    "country": "Morocco",
+    "lat": 35.0000,
+    "long": -5.9000  },
+  {
+    "city": "Asilah",
+    "country": "Morocco",
+    "lat": 35.4667,
+    "long": -6.0333  },
+  {
+    "city": "Chefchaouen",
+    "country": "Morocco",
+    "lat": 35.1714,
+    "long": -5.2697  },
+  {
+    "city": "Ouazzane",
+    "country": "Morocco",
+    "lat": 34.8000,
+    "long": -5.6000  },
+  {
+    "city": "Sefrou",
+    "country": "Morocco",
+    "lat": 33.8303,
+    "long": -4.8353  },
+  {
+    "city": "Boulemane",
+    "country": "Morocco",
+    "lat": 33.3667,
+    "long": -4.7333  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azilal",
+    "country": "Morocco",
+    "lat": 31.9667,
+    "long": -6.5667  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Tinghir",
+    "country": "Morocco",
+    "lat": 31.5167,
+    "long": -5.5333  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Zagora",
+    "country": "Morocco",
+    "lat": 30.3167,
+    "long": -5.8333  },
+  {
+    "city": "Tata",
+    "country": "Morocco",
+    "lat": 29.7500,
+    "long": -7.9667  },
+  {
+    "city": "Goulmima",
+    "country": "Morocco",
+    "lat": 31.6833,
+    "long": -4.9500  },
+  {
+    "city": "Alnif",
+    "country": "Morocco",
+    "lat": 31.1167,
+    "long": -5.1667  },
+  {
+    "city": "Assa",
+    "country": "Morocco",
+    "lat": 28.6000,
+    "long": -9.4333  },
+  {
+    "city": "Smara",
+    "country": "Western Sahara",
+    "lat": 26.7384,
+    "long": -11.671
+  },
+  {
+    "city": "Laayoune",
+    "country": "Western Sahara",
+    "lat": 27.1536,
+    "long": -13.203
+  },
+  {
+    "city": "Dakhla",
+    "country": "Western Sahara",
+    "lat": 23.6848,
+    "long": -15.958
+  },
+  {
+    "city": "Boujdour",
+    "country": "Western Sahara",
+    "lat": 26.1306,
+    "long": -14.485
+  },
+  {
+    "city": "Awsard",
+    "country": "Western Sahara",
+    "lat": 22.7456,
+    "long": -14.390
+  },
+  {
+    "city": "Tifariti",
+    "country": "Western Sahara",
+    "lat": 26.0928,
+    "long": -10.608
+  },
+  {
+    "city": "Bir Lehlou",
+    "country": "Western Sahara",
+    "lat": 26.1186,
+    "long": -9.7356  },
+  {
+    "city": "Zouerate",
+    "country": "Mauritania",
+    "lat": 22.7354,
+    "long": -12.473
+  },
+  {
+    "city": "Atar",
+    "country": "Mauritania",
+    "lat": 20.5091,
+    "long": -13.044
+  },
+  {
+    "city": "Nouadhibou",
+    "country": "Mauritania",
+    "lat": 20.9425,
+    "long": -17.038
+  },
+  {
+    "city": "Nouakchott",
+    "country": "Mauritania",
+    "lat": 18.0731,
+    "long": -15.958
+  },
+  {
+    "city": "Rosso",
+    "country": "Mauritania",
+    "lat": 16.5116,
+    "long": -15.805
+  },
+  {
+    "city": "Kaédi",
+    "country": "Mauritania",
+    "lat": 16.1506,
+    "long": -13.500
+  },
+  {
+    "city": "Kiffa",
+    "country": "Mauritania",
+    "lat": 16.6160,
+    "long": -11.404
+  },
+  {
+    "city": "Ayoun el Atrous",
+    "country": "Mauritania",
+    "lat": 16.6667,
+    "long": -9.6167  },
+  {
+    "city": "Selibaby",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Aleg",
+    "country": "Mauritania",
+    "lat": 17.0500,
+    "long": -13.916
+  },
+  {
+    "city": "Tidjikja",
+    "country": "Mauritania",
+    "lat": 18.5500,
+    "long": -11.416
+  },
+  {
+    "city": "Néma",
+    "country": "Mauritania",
+    "lat": 16.6167,
+    "long": -7.2500  },
+  {
+    "city": "Fderick",
+    "country": "Mauritania",
+    "lat": 22.6833,
+    "long": -12.716
+  },
+  {
+    "city": "Sélibabi",
+    "country": "Mauritania",
+    "lat": 15.1667,
+    "long": -12.183
+  },
+  {
+    "city": "Akjoujt",
+    "country": "Mauritania",
+    "lat": 19.7500,
+    "long": -14.383
+  },
+  {
+    "city": "Guelmim",
+    "country": "Morocco",
+    "lat": 28.9833,
+    "long": -10.066
+  },
+  {
+    "city": "Tan-Tan",
+    "country": "Morocco",
+    "lat": 28.4333,
+    "long": -11.100
+  },
+  {
+    "city": "Taroudant",
+    "country": "Morocco",
+    "lat": 30.4667,
+    "long": -8.8667  },
+  {
+    "city": "Ouarzazate",
+    "country": "Morocco",
+    "lat": 30.9167,
+    "long": -6.9167  },
+  {
+    "city": "Errachidia",
+    "country": "Morocco",
+    "lat": 31.9319,
+    "long": -4.4244  },
+  {
+    "city": "Midelt",
+    "country": "Morocco",
+    "lat": 32.6808,
+    "long": -4.7361  },
+  {
+    "city": "Ifrane",
+    "country": "Morocco",
+    "lat": 33.5333,
+    "long": -5.1167  },
+  {
+    "city": "Azrou",
+    "country": "Morocco",
+    "lat": 33.4417,
+    "long": -5.2214  },
+  {
+    "city": "Khénifra",
+    "country": "Morocco",
+    "lat": 32.9394,
+    "long": -5.6675  },
+  {
+    "city": "Beni Mellal",
+    "country": "Morocco",
+    "lat": 32.3394,
+    "long": -6.3608  },
+  {
+    "city": "Settat",
+    "country": "Morocco",
+    "lat": 33.0023,
+    "long": -7.6198  }  
+] 

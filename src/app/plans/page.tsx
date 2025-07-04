@@ -147,12 +147,6 @@ export default function PlansPage() {
             </div>
           </div>
         </div>
-
-        <div className="mt-16 text-center">
-          <p className="text-gray-500">
-            Need help choosing? <a href="#" className="text-blue-600 hover:text-blue-500 font-medium">Contact us</a>
-          </p>
-        </div>
       </div>
     </main>
   );

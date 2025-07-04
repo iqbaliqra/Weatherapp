@@ -34,7 +34,7 @@ export default function Dashboard() {
           setUserInfo(data.user);
 
           if (data.user.subscription_status === "INACTIVE") {
-            router.push("/plans");
+            router.push("/dashboard");
           }
         }
         setLoadingUser(false);
@@ -86,6 +86,7 @@ export default function Dashboard() {
       </div>
     );
   }
+  
 
   if (loadingWeather) {
     return (
