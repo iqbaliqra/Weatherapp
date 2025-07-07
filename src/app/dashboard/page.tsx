@@ -59,7 +59,7 @@ export default function Dashboard() {
           const data = await res.json();
 
           if (data.user.subscription_status === "INACTIVE") {
-            router.push("/plans");
+            router.push("/dashboard");
           }
         }
         setLoadingUser(false);
