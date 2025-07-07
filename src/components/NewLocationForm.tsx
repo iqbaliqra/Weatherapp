@@ -7,7 +7,7 @@ import locationsData from "@/app/data/location_mock_data.json";
 import { Location } from "@/types/location";
 import { signOut } from "next-auth/react";
 export default function NewLocationForm() {
-  const { data: session, status } = useSession();
+  const {status } = useSession();
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [loading, setLoading] = useState(false);
   const [savedLocations, setSavedLocations] = useState<Location[]>([]);
