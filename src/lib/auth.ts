@@ -14,11 +14,7 @@ export const authOptions: NextAuthOptions = {
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
-        if (
-          !credentials ||
-          !credentials.email ||
-          !credentials.password
-        ) {
+        if (!credentials || !credentials.email || !credentials.password) {
           throw new Error("Missing credentials");
         }
 
@@ -34,6 +30,7 @@ export const authOptions: NextAuthOptions = {
           credentials.password,
           user.password
         );
+
         if (!isValid) throw new Error("Invalid password");
 
         return {
@@ -48,6 +45,13 @@ export const authOptions: NextAuthOptions = {
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID!,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+      authorization: {
+        params: {
+          prompt: "select_account", // Force account chooser every time
+          access_type: "offline",
+          response_type: "code",
+        },
+      },
     }),
   ],
 
