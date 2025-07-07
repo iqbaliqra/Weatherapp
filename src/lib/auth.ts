@@ -2,8 +2,9 @@
 import { NextAuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import CredentialsProvider from "next-auth/providers/credentials";
-import {prisma} from "@/lib/prisma";
+import { prisma } from "@/lib/prisma";
 import bcrypt from "bcrypt";
+
 export const authOptions: NextAuthOptions = {
   providers: [
     CredentialsProvider({
@@ -13,15 +14,26 @@ export const authOptions: NextAuthOptions = {
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
+        if (
+          !credentials ||
+          !credentials.email ||
+          !credentials.password
+        ) {
+          throw new Error("Missing credentials");
+        }
+
         const user = await prisma.user.findUnique({
-          where: { email: credentials?.email },
+          where: { email: credentials.email },
         });
 
         if (!user || !user.password || user.isExtAuth) {
           throw new Error("Invalid credentials or external user.");
         }
 
-        const isValid = await bcrypt.compare(credentials.password, user.password);
+        const isValid = await bcrypt.compare(
+          credentials.password,
+          user.password
+        );
         if (!isValid) throw new Error("Invalid password");
 
         return {
@@ -41,7 +53,7 @@ export const authOptions: NextAuthOptions = {
 
   session: {
     strategy: "jwt",
-    maxAge:60*60
+    maxAge: 60 * 60, // 1 hour
   },
 
   callbacks: {
@@ -80,24 +92,26 @@ export const authOptions: NextAuthOptions = {
       return token;
     },
 
-   async session({ session, token }) {
-  session.user.name = token.name as string;
-  session.user.email = token.email as string;
-  session.user.isExtAuth = token.isExtAuth as boolean;
+    async session({ session, token }) {
+      if (session.user) {
+        session.user.name = token.name as string;
+        session.user.email = token.email as string;
+        session.user.isExtAuth = token.isExtAuth as boolean;
 
-  const dbUser = await prisma.user.findUnique({
-    where: { email: session.user.email },
-    select: {
-      stripeCustomerId: true,
-      subscription_status: true,
+        const dbUser = await prisma.user.findUnique({
+          where: { email: session.user.email },
+          select: {
+            stripeCustomerId: true,
+            subscription_status: true,
+          },
+        });
+
+        session.user.stripeCustomerId = dbUser?.stripeCustomerId || null;
+        session.user.subscription_status = dbUser?.subscription_status || null;
+      }
+
+      return session;
     },
-  });
-
-  session.user.stripeCustomerId = dbUser?.stripeCustomerId as string;
-  session.user.subscription_status = dbUser?.subscription_status as string;
-  return session;
-}
-
   },
 
   pages: {
