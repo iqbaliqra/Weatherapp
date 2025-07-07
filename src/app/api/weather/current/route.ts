@@ -14,9 +14,17 @@ export async function GET(req: NextRequest) {
   try {
     const data = await fetchCurrentWeather(city);
     return NextResponse.json(data);
-  } catch (error: any) {
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      return NextResponse.json(
+        { error: error.message },
+        { status: 500 }
+      );
+    }
+
+    // Fallback for unknown errors
     return NextResponse.json(
-      { error: error.message },
+      { error: 'An unknown error occurred' },
       { status: 500 }
     );
   }

@@ -1,8 +1,9 @@
-'use client';
+"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
+import Image from "next/image";
 
 export default function Login() {
   const router = useRouter();
@@ -12,13 +13,13 @@ export default function Login() {
   const [passwordVisible, setPasswordVisible] = useState(false);
   const [isFocused, setIsFocused] = useState({
     email: false,
-    password: false
+    password: false,
   });
 
   const handleCredentialsLogin = async () => {
     setLoading(true);
     setError("");
-    
+
     const res = await signIn("credentials", {
       email: form.email,
       password: form.password,
@@ -40,11 +41,11 @@ export default function Login() {
   };
 
   const handleFocus = (field: string) => {
-    setIsFocused(prev => ({ ...prev, [field]: true }));
+    setIsFocused((prev) => ({ ...prev, [field]: true }));
   };
 
   const handleBlur = (field: string) => {
-    setIsFocused(prev => ({ ...prev, [field]: false }));
+    setIsFocused((prev) => ({ ...prev, [field]: false }));
   };
 
   return (
@@ -55,9 +56,9 @@ export default function Login() {
       {/* Semi-transparent overlay */}
       <div className="absolute inset-0 bg-white/10 backdrop-blur-sm"></div>
 
-      {/* Main form container - responsive width and padding */}
+      {/* Main form container */}
       <form className="relative z-10 w-full max-w-md p-6 sm:p-8 mx-auto rounded-2xl shadow-xl bg-white/90 backdrop-blur-md border border-white/90 space-y-6 animate-fadeInUp">
-        {/* Header with weather icon */}
+        {/* Header */}
         <div className="text-center space-y-2">
           <div className="inline-flex items-center justify-center">
             <div className="text-4xl sm:text-5xl animate-float-delay">🌤️</div>
@@ -66,15 +67,18 @@ export default function Login() {
           <p className="text-sm sm:text-base text-blue-600">Sign in to your WeatherTrack account</p>
         </div>
 
-        {/* Google login button */}
+        {/* Google login */}
         <button
           onClick={handleGoogleSignIn}
+          type="button"
           className="w-full flex items-center justify-center gap-3 border border-blue-200 bg-white rounded-lg py-2.5 sm:py-3 px-4 hover:bg-blue-50 transition-all duration-300 text-sm sm:text-base"
         >
-          <img 
-            src="https://www.svgrepo.com/show/475656/google-color.svg" 
-            alt="Google" 
-            className="w-4 h-4 sm:w-5 sm:h-5" 
+          <Image
+            src="https://www.svgrepo.com/show/475656/google-color.svg"
+            alt="Google"
+            width={20}
+            height={20}
+            className="w-4 h-4 sm:w-5 sm:h-5"
           />
           <span className="text-blue-700 font-medium">Continue with Google</span>
         </button>
@@ -86,7 +90,7 @@ export default function Login() {
           <hr className="flex-grow border-blue-100" />
         </div>
 
-        {/* Error message */}
+        {/* Error */}
         {error && (
           <div className="p-2 sm:p-3 bg-red-50 border border-red-200 text-red-700 rounded-lg text-xs sm:text-sm animate-shake">
             <div className="flex items-center">
@@ -98,8 +102,8 @@ export default function Login() {
           </div>
         )}
 
-        {/* Email field */}
-        <div className="animate-fadeInUp" style={{animationDelay: "0.1s"}}>
+        {/* Email */}
+        <div className="animate-fadeInUp" style={{ animationDelay: "0.1s" }}>
           <label htmlFor="email" className="block text-xs sm:text-sm font-medium text-blue-900 mb-1">
             Email
           </label>
@@ -125,8 +129,8 @@ export default function Login() {
           </div>
         </div>
 
-        {/* Password field */}
-        <div className="animate-fadeInUp" style={{animationDelay: "0.2s"}}>
+        {/* Password */}
+        <div className="animate-fadeInUp" style={{ animationDelay: "0.2s" }}>
           <label htmlFor="password" className="block text-xs sm:text-sm font-medium text-blue-900 mb-1">
             Password
           </label>
@@ -161,16 +165,11 @@ export default function Login() {
                 </svg>
               )}
             </button>
-            <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-blue-400">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 sm:h-5 sm:w-5" viewBox="0 0 20 20" fill="currentColor">
-                <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
-              </svg>
-            </div>
           </div>
         </div>
 
-        {/* Forgot password link */}
-        <div className="text-right animate-fadeInUp" style={{animationDelay: "0.3s"}}>
+        {/* Forgot password */}
+        <div className="text-right animate-fadeInUp" style={{ animationDelay: "0.3s" }}>
           <a href="/forgot-password" className="text-xs sm:text-sm text-blue-600 hover:underline">
             Forgot password?
           </a>
@@ -179,17 +178,16 @@ export default function Login() {
         {/* Login button */}
         <button
           onClick={handleCredentialsLogin}
+          type="button"
           disabled={loading}
           className={`w-full py-2.5 sm:py-3 px-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center ${
             loading
               ? "bg-blue-400 cursor-not-allowed"
               : "bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 shadow-lg hover:shadow-blue-200 active:scale-[0.98]"
           } text-white relative overflow-hidden group animate-fadeInUp text-sm sm:text-base`}
-          style={{animationDelay: "0.4s"}}
+          style={{ animationDelay: "0.4s" }}
         >
-          <span className={`relative z-10 flex items-center ${
-            loading ? "opacity-0" : "opacity-100"
-          }`}>
+          <span className={`relative z-10 flex items-center ${loading ? "opacity-0" : "opacity-100"}`}>
             Sign In
           </span>
           {loading && (
@@ -202,9 +200,10 @@ export default function Login() {
           )}
         </button>
 
-        {/* Sign up link */}
-        <div className="text-center text-xs sm:text-sm text-blue-900 animate-fadeInUp" style={{animationDelay: "0.5s"}}>
-          <p>Don't have an account?{" "}
+        {/* Signup link */}
+        <div className="text-center text-xs sm:text-sm text-blue-900 animate-fadeInUp" style={{ animationDelay: "0.5s" }}>
+          <p>
+            Don&apos;t have an account?{" "}
             <a href="/register" className="font-semibold text-blue-600 hover:text-blue-800 transition-colors duration-200 underline-offset-2 hover:underline">
               Sign up
             </a>
@@ -217,7 +216,7 @@ export default function Login() {
 
 function WeatherBackground() {
   const weatherIcons = ["☀️", "⛅", "🌤️", "🌥️", "☁️", "🌦️", "🌧️", "⛈️", "🌩️", "🌨️", "❄️", "🌪️"];
-  
+
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
       {[...Array(15)].map((_, i) => {
@@ -227,9 +226,9 @@ function WeatherBackground() {
         const left = `${Math.random() * 100}%`;
         const top = `${Math.random() * 100}%`;
         const opacity = 0.5 + Math.random() * 0.3;
-        
+
         return (
-          <div 
+          <div
             key={i}
             className="absolute text-blue-200 animate-fadeIn"
             style={{
@@ -239,8 +238,8 @@ function WeatherBackground() {
               animationDelay: delay,
               animationDuration: duration,
               opacity,
-              textShadow: '0 0 10px rgba(255,255,255,0.7)',
-              zIndex: 0
+              textShadow: "0 0 10px rgba(255,255,255,0.7)",
+              zIndex: 0,
             }}
           >
             {weatherIcons[Math.floor(Math.random() * weatherIcons.length)]}

@@ -20,9 +20,29 @@ export default function PlansPage() {
     }
   };
 
+  const handleBack = () => {
+    router.push("/dashboard");
+  };
+
   return (
     <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-200 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto relative">
+        {/* Back Button */}
+        <button
+          onClick={handleBack}
+          className="absolute left-0 top-0 ml-2 mt-2 flex items-center text-gray-600 hover:text-gray-900 transition-colors duration-200"
+        >
+          <svg
+            className="h-6 w-6 mr-1"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+          Back
+        </button>
+
         <div className="text-center mb-16">
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
             Choose Your Plan

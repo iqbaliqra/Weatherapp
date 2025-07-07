@@ -3,7 +3,7 @@
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { FiCloud, FiHome, FiMapPin, FiUser, FiLogOut } from 'react-icons/fi';
-import { signOut, useSession } from 'next-auth/react';
+import { signOut} from 'next-auth/react';
 
 const navItems = [
   { href: '/dashboard', label: 'Dashboard', icon: <FiHome /> },
@@ -14,7 +14,7 @@ const navItems = [
 
 export default function Sidebar() {
   const pathname = usePathname();
-  const { data: session } = useSession();
+  
 
   return (
     <div className="w-64 bg-gradient-to-b from-white to-gray-50 border-r border-gray-200 h-screen flex flex-col fixed">
@@ -54,7 +54,7 @@ export default function Sidebar() {
 
         {/* Logout Button as a nav item */}
         <button
-          onClick={() => signOut({ callbackUrl: '/register',session:null })}
+          onClick={() => signOut({ callbackUrl: '/register' })}
           className="flex items-center w-full px-4 py-3 text-sm font-medium text-gray-600 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors group"
         >
           <FiLogOut className="mr-3 text-lg text-gray-500 group-hover:text-red-500 transition-colors" />

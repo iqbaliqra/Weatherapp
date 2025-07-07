@@ -3,6 +3,7 @@
 import { stripe } from "@/lib/stripe";
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import Stripe from "stripe";
 
 export const config = {
   api: {
@@ -19,7 +20,7 @@ export async function POST(req: Request) {
     return new Response("Missing stripe signature", { status: 400 });
   }
 
-  let event;
+  let event: Stripe.Event;
 
   try {
     event = stripe.webhooks.constructEvent(
@@ -27,26 +28,33 @@ export async function POST(req: Request) {
       sig,
       process.env.STRIPE_WEBHOOK_SECRET!
     );
-  } catch (err: any) {
-    console.error("Webhook Error:", err.message);
-    return new Response(`Webhook Error: ${err.message}`, { status: 400 });
+  } catch (err: unknown) {
+    if (err instanceof Stripe.errors.StripeSignatureVerificationError) {
+      console.error("Signature Verification Error:", err.message);
+      return new Response(`Webhook Error: ${err.message}`, { status: 400 });
+    }
+    if (err instanceof Error) {
+      console.error("Webhook Error:", err.message);
+      return new Response(`Webhook Error: ${err.message}`, { status: 400 });
+    }
+    console.error("Unknown error occurred:", err);
+    return new Response(`Webhook Error: Unknown error`, { status: 400 });
   }
 
-  // ✅ Handle subscription completion
   if (event.type === "checkout.session.completed") {
-    const session = event.data.object;
+    const session = event.data.object as Stripe.Checkout.Session;
 
     const customerEmail = session.customer_email;
     const customerId = session.customer;
 
-    console.log("✅ Payment success for:", customerEmail);
+    console.log("Payment success for:", customerEmail);
 
     if (customerEmail) {
       await prisma.user.update({
         where: { email: customerEmail },
         data: {
           subscription_status: "ACTIVE",
-          stripeCustomerId: customerId,
+          stripeCustomerId: typeof customerId === "string" ? customerId : undefined,
         },
       });
     }
