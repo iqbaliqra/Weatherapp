@@ -220,7 +220,54 @@ Use the test user from your Google Cloud project OAuth screen.
 2. Go to [https://vercel.com](https://vercel.com)
 3. Import your GitHub repo.
 4. Add all environment variables in Vercel settings.
-5. Deploy!
+   ## 🚀 Vercel Deployment Notes
+
+After deploying your app to Vercel, make sure to update the following for production use:
+
+### 🔐 Google OAuth Configuration
+
+1. Go to [Google Cloud Console](https://console.cloud.google.com/apis/credentials).
+2. Edit your existing OAuth Client ID.
+3. Update the **Authorized redirect URI**:
+
+https://your-vercel-app.vercel.app/api/auth/callback/google
+
+
+4. Update the **Authorized JavaScript origin**:
+
+https://your-vercel-app.vercel.app
+
+
+5. Wait for a few minutes (sometimes up to an hour) for the changes to propagate.
+6. Add the same Google credentials to your Vercel environment variables.
+
+---
+
+### 💳 Stripe Webhook Setup on Vercel
+
+1. Go to [Stripe Dashboard → Developers → Webhooks](https://dashboard.stripe.com/webhooks).
+2. Click **Add endpoint**.
+3. Set the endpoint URL to:
+
+https://your-vercel-app.vercel.app/api/stripe/webhook
+
+
+4. Select the events you want to listen to (e.g.):
+   - `checkout.session.completed`
+   - `invoice.paid`
+   - `customer.subscription.updated`
+
+5. Save the endpoint.
+6. Stripe will generate a **webhook secret** — copy it.
+7. Add it to your Vercel environment variables as:
+
+STRIPE_WEBHOOK_SECRET=whsec_XXXXXXXXXXXXXXXX
+
+
+8. Wait a few minutes (Stripe may take time to start sending events).
+9. Redeploy the app if needed.
+
+---
 
 ---
 
